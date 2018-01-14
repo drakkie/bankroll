@@ -1,9 +1,17 @@
 # bankroll
 
-<<<<<<< HEAD
 A desktop budget management application.
 
-Built with Angular, Express, Node and lowdb on Electron.
-=======
-An application to help keep track of your budget - a lite desktop version of "mint" built with Angular and Express on the Electron platform.
->>>>>>> 7d03162bac6c2a61039c98dc04828b241f6f6144
+Built with Angular, Express, Node and lowdb
+
+// DEBUG
+to debug, use nodemon..
+```
+nodemon -e js,html app.js
+```
+
+http://localhost:3000
+
+
+// TODO
+Put on Electron to run application locally as a desktop app.
