@@ -1,0 +1,10 @@
+{
+  "expense": [
+    {
+      "id": "80e26b73-daf5-4b35-aba9-a1ca6d10f7c0",
+      "name": "Internet",
+      "amount": 45,
+      "frequency": "Monthly"
+    }
+  ]
+}

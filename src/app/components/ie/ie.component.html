@@ -1,0 +1,21 @@
+<div fxLayout="row" fxLayoutGap="10px">
+    <div fxFlex="33">
+
+        <mat-toolbar>
+            <span>Expenses</span>
+            <span class="spacer"></span>
+            <app-ie-toolbar (onAdd)="addExpense($event)" (onDelete)="deleteExpense($event)"></app-ie-toolbar>
+        </mat-toolbar>
+        <app-ie-viewer #expenseViewer [rows]="expense_service.transactions$ | async"></app-ie-viewer>
+    </div>
+
+
+    <div fxFlex="33">
+        <mat-toolbar>
+            <span>Goals</span>
+            <span class="spacer"></span>
+            <app-ie-toolbar (onAdd)="addGoal($event)" (onDelete)="deleteGoal($event)"></app-ie-toolbar>
+        </mat-toolbar>
+        <app-ie-viewer #goalViewer [rows]="goal_service.transactions$ | async"></app-ie-viewer>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+<mat-card>
+  <mat-card-title>Past Transactions</mat-card-title>
+  <mat-card-content>
+    <mat-table #table [dataSource]="data_source">
+      <div *ngFor="let column of displayed_columns">
+        <ng-container matColumnDef={{column}}>
+          <mat-header-cell *matHeaderCellDef>{{column}}</mat-header-cell>
+          <mat-cell *matCellDef="let row">{{row[column]}}</mat-cell>
+        </ng-container>
+      </div>
+
+      <mat-header-row *matHeaderRowDef="displayed_columns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayed_columns;"></mat-row>
+
+    </mat-table>
+  </mat-card-content>
+</mat-card>

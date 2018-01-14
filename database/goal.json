@@ -1,0 +1,10 @@
+{
+  "goal": [
+    {
+      "id": "500ac157-cc72-483a-bbde-bee2dc9fc43c",
+      "name": "General",
+      "amount": 1000,
+      "frequency": "Monthly"
+    }
+  ]
+}

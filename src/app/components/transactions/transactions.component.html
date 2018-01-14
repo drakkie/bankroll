@@ -1,0 +1,21 @@
+<div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+
+
+
+    <div *ngIf="(transactionType$ | async) == 'cc'">
+        <div class="item item-1" fxFlex="50%">
+            <mat-toolbar>
+                <span>Credit Cards</span>
+                <span class="spacer"></span>
+                <app-transactions-toolbar (onAdd)="add_cc_transactions($event)" [ExistingTransactions]="transaction_cc_service.transactions$ | async"></app-transactions-toolbar>
+            </mat-toolbar>
+            <app-transactions-displayer [Data]="cc_data_source" [Columns]="['Amount', 'Date', 'Description', 'Type']"></app-transactions-displayer>
+        </div>
+    </div>
+
+    <div *ngIf="(transactionType$ | async) == 'bank'">
+        <app-transactions-adder [ExistingTransactions]="transaction_bank_service.transactions$ | async" (transactions_output)="add_bank_transactions($event)"></app-transactions-adder>
+        <app-transactions-displayer [Data]="bank_data_source" [Columns]="['Amount', 'Date', 'Description']"></app-transactions-displayer>
+    </div>
+
+</div>

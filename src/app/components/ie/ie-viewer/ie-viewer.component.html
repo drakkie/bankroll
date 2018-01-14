@@ -1,0 +1,15 @@
+<mat-card>
+  <mat-card-content>
+    <ngx-datatable [selected]="selected" (select)='onSelect($event)' [selectionType]="'checkbox'" [columnMode]="'force'" [headerHeight]="50"
+      [footerHeight]="50" [rowHeight]="50" [rows]="rows">
+
+      <ngx-datatable-column [width]="30" [sortable]="false" [canAutoResize]="false" [draggable]="false" [resizeable]="false" [headerCheckboxable]="true"
+        [checkboxable]="true">
+      </ngx-datatable-column>
+      <ngx-datatable-column name="Name" prop="name"></ngx-datatable-column>
+      <ngx-datatable-column name="Amount" prop="amount"></ngx-datatable-column>
+      <ngx-datatable-column name="Frequency" prop="frequency"></ngx-datatable-column>
+    </ngx-datatable>
+
+  </mat-card-content>
+</mat-card>

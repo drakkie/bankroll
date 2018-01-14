@@ -1,0 +1,28 @@
+<div fxLayout="row" fxLayoutGap="10px">
+    <div fxFlex="33">
+      <mat-toolbar><mat-icon>credit_card</mat-icon>Credit Card Spending</mat-toolbar>
+      <mat-card>
+        <mat-card-content>
+          <app-total-displayer [yearMonthTotals]="transaction_cc_service.totals$ | async"></app-total-displayer>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <div fxFlex="33">
+      <mat-toolbar><mat-icon>money_off</mat-icon>Spending from Bank Account</mat-toolbar>
+      <mat-card>
+        <mat-card-content>
+          <app-total-displayer [yearMonthTotals]="transaction_bank_service.totals$ | async"></app-total-displayer>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <div fxFlex>
+      <mat-toolbar><mat-icon>attach_money</mat-icon>Money Earned!</mat-toolbar>
+      <mat-card>
+        <mat-card-content>
+          <app-total-displayer [yearMonthTotals]="transaction_bank_service.earnings$ | async"></app-total-displayer>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>

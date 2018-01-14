@@ -1,0 +1,22 @@
+<h2 mat-dialog-title>Add</h2>
+<form class="input-form" #value="ngForm" (ngSubmit)="onAddClick(value)" novalidate>
+<mat-dialog-content>
+    <mat-form-field>
+        <input matInput matAutosizeMaxRows="1" placeholder="Name" name="name" ngModel/>
+    </mat-form-field>
+    <mat-form-field>
+        <span matPrefix>$</span>
+        <input currency-mask matInput matAutosizeMaxRows="1" placeholder="Amount" type="number" name="amount" ngModel/>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-select placeholder="Frequency" name="frequency" ngModel>
+            <mat-option *ngFor="let frequency of frequencies" [value]="frequency.name">{{ frequency.name }}</mat-option>
+        </mat-select>
+    </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions>
+    <!-- was unable to do dynamic form name for some reason, so moved form to the outside the card content.. -->
+    <button mat-raised-button type="submit" color="primary">ADD</button>
+    <button mat-raised-button type="button" (click)="onCancelClick()" color="primary">CANCEL</button>
+</mat-dialog-actions>
+</form>

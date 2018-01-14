@@ -1,0 +1,6 @@
+<h2 mat-dialog-title>Add</h2>
+<mat-dialog-actions>
+    <button mat-raised-button type="button" (click)="file.click()">Add by file</button>
+    <input hidden type="file" accept=".csv" (change)="onAddClick($event)" #file/>
+    <button mat-raised-button type="button" (click)="onCancelClick()" color="primary">CANCEL</button>
+</mat-dialog-actions>

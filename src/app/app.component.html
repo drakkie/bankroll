@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+
+    <button mat-icon-button color="accent" [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+</mat-toolbar>
+
+
+<mat-menu #menu="matMenu">
+  <a routerLink="/cc"> <button mat-menu-item>Credit Card Transaction</button></a>
+  <a routerLink="/bank"><button mat-menu-item>Bank Transactions</button></a>
+  <a routerLink="/ie"> <button mat-menu-item>Income and Expenses</button></a>
+  <a routerLink="/overview"><button mat-menu-item>Spending Overview</button></a>
+</mat-menu>
+
+  <router-outlet></router-outlet>
