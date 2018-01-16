@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IeToolbarComponent } from './ie-Toolbar.component';
+import { IeToolbarComponent, IeToolbarDialogComponent } from './ie-Toolbar.component';
 
 describe('IeToolbarComponent', () => {
   let component: IeToolbarComponent;
@@ -8,7 +8,7 @@ describe('IeToolbarComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ IeToolbarComponent ]
+      declarations: [ IeToolbarComponent, IeToolbarDialogComponent ]
     })
     .compileComponents();
   }));
