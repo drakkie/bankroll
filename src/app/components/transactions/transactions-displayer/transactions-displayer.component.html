@@ -16,10 +16,27 @@
   </mat-card-content> -->
 
   <mat-card-content>
-    <ngx-datatable [headerHeight]="30"  [rowHeight]="50" [rows]="data_source">
+    <ngx-datatable [headerHeight]="30" [columnMode]="'force'" [rowHeight]="50" [rows]="data_source">
       <div *ngFor="let column of displayed_columns">
         <ngx-datatable-column name={{column}} prop={{column}}></ngx-datatable-column>
       </div>
+      <ngx-datatable-column name="hello">
+        <ng-template ngx-datatable-cell-template let rowIndex="rowIndex" let-value="value" let-row="row">
+            <!-- <span
+            title="Double click to edit"
+            (dblclick)="editing[rowIndex + '-name'] = true"
+            *ngIf="!editing[rowIndex + '-name']">
+            {{value}}
+          </span>
+          <input
+            autofocus
+            (blur)="updateValue($event, 'name', rowIndex)"
+            *ngIf="editing[rowIndex+ '-name']"
+            type="text"
+            [value]="value"
+          /> -->
+        </ng-template>
+      </ngx-datatable-column>
     </ngx-datatable>
   </mat-card-content>
 </mat-card>
