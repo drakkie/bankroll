@@ -6,7 +6,6 @@ import { TransactionsComponent } from './transactions.component';
 import { TransactionsDisplayerComponent } from './transactions-displayer/transactions-displayer.component';
 
 import { 
-  MatTableModule,
   MatPaginatorModule,
   MatInputModule,
   MatCardModule,
@@ -21,7 +20,6 @@ import { TransactionsToolbarComponent, TransactionsAddDialog } from './transacti
 @NgModule({
   imports: [
     CommonModule,
-    MatTableModule,
     MatPaginatorModule,
     MatInputModule,
     MatCardModule,
