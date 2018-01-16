@@ -42,3 +42,8 @@ testem.log
 Thumbs.db
 database/cc.json
 database/bank.json
+database/bank.json
+database/bank.json
+database/cc.json
+database/expense.json
+database/goal.json

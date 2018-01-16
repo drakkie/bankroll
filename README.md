@@ -5,9 +5,10 @@ A desktop budget management application.
 Built with Angular, Express, Node and lowdb
 
 // DEBUG
-to debug, use nodemon..
+to debug, use nodemon & npm build..
 ```
 nodemon -e js,html app.js
+ng build --watch
 ```
 
 http://localhost:3000

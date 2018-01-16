@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "e": "nodemon -e js,html,json app.jsnodemon"
+    "nodemon": "nodemon -e js,html app.js"
   },
   "private": true,
   "dependencies": {
