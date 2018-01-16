@@ -1,3 +1,4 @@
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -28,7 +29,8 @@ import { TransactionsToolbarComponent, TransactionsAddDialog } from './transacti
     FormsModule,
     MatIconModule,
     MatToolbarModule,
-    MatDialogModule
+    MatDialogModule,
+    NgxDatatableModule
   ],
   declarations: [
     TransactionsComponent,

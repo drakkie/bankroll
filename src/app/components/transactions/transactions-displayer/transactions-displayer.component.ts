@@ -9,9 +9,11 @@ import { DataSource } from '@angular/cdk/table';
 export class TransactionsDisplayerComponent implements OnInit {
 
   @Input('Data')
-  data_source: DataSource<any> | null;
+  data_source: any[];
   @Input('Columns')
   displayed_columns: string[];
+
+
   
   constructor() { }
 

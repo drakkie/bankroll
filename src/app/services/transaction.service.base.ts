@@ -16,8 +16,8 @@ export abstract class CrudServiceBase implements ICrud {
   }
   delete(items: any[]) {
     //using this instead of this.http.delete, since delete does not allow a body - must use generic request
-    this.http.request(`delete`, `/${this.transaction_type}`, { body: items})
-    .subscribe((result) => { this.read();});
+    this.http.request(`delete`, `/${this.transaction_type}`, { body: items })
+      .subscribe((result) => { this.read(); });
 
   }
   update() {
@@ -107,7 +107,7 @@ export abstract class TransactionService extends CrudServiceBase implements ICru
           });
         }
 
-        
+
 
         this.totals$.next(totals);
         this.earnings$.next(earnings);
