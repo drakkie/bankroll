@@ -12,7 +12,8 @@ import {
   MatButtonModule,
   MatIconModule,
   MatToolbarModule,
-  MatDialogModule
+  MatDialogModule,
+  MatSelectModule
 } from '@angular/material';
 import { TransactionsAdderComponent } from './transactions-adder/transactions-adder.component';
 import { TransactionsToolbarComponent, TransactionsAddDialog } from './transactions-toolbar/transactions-toolbar.component';
@@ -28,7 +29,8 @@ import { TransactionsToolbarComponent, TransactionsAddDialog } from './transacti
     MatIconModule,
     MatToolbarModule,
     MatDialogModule,
-    NgxDatatableModule
+    NgxDatatableModule,
+    MatSelectModule
   ],
   declarations: [
     TransactionsComponent,

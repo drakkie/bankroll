@@ -13,6 +13,7 @@ export class TransactionsDisplayerComponent implements OnInit {
   @Input('Columns')
   displayed_columns: string[];
 
+  editing = {};
 
   
   constructor() { }
