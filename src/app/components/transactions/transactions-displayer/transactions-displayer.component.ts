@@ -13,12 +13,16 @@ export class TransactionsDisplayerComponent implements OnInit {
   @Input('Columns')
   displayed_columns: string[];
 
-  editing = {};
 
   
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onCategoryClick(row: any, data: any){
+    console.log(data.value);
+    console.log(row);
   }
 
 }
