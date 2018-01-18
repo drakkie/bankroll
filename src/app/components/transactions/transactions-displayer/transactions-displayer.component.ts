@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { DataSource } from '@angular/cdk/table';
 
 @Component({
@@ -13,16 +13,16 @@ export class TransactionsDisplayerComponent implements OnInit {
   @Input('Columns')
   displayed_columns: string[];
 
-
+  @Output('onChange')
+  change = new EventEmitter<any>();
   
   constructor() { }
 
   ngOnInit() {
   }
 
-  onCategoryClick(row: any, data: any){
-    console.log(data.value);
-    console.log(row);
+  onChange(id: any, field_to_update: any, data: any){
+    this.change.emit({id: id, field_to_update: field_to_update, value: data.value});
   }
 
 }

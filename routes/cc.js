@@ -18,11 +18,6 @@ module.exports = (() => {
             res.send(cc_db.get('cc').value());
         });
         
-        router.get('/cc/:id', (req, res) => {
-            let cc_id = req.params.id;
-            res.json(cc_db.get('cc').find({ id: cc_id }));
-        });
-        
         router.post('/cc', (req, res) => {
             let ccs = req.body;
             for (let cc of ccs) {
@@ -47,21 +42,20 @@ module.exports = (() => {
             cc_db.save();
         });
         
-        router.put('/person/:id', (req, res) => {
+        router.put('/cc/:id', (req, res) => {
+            
             let cc_id = req.params.id;
-        
-            cc_db('cc')
-                .chain()
+            let field_to_update = req.body.field_to_update;
+            let value = req.body.value;
+            
+            let assignmentJSON = `{ "${field_to_update}": "${value}" }`;
+            let assignment = JSON.parse(assignmentJSON);
+
+            cc_db
+                .get('cc')
                 .find({ id: cc_id })
-                .assign({
-                    Amount: req.body.Amount,
-                    Date: req.body.Date,
-                    Description: req.body.Description,
-                    Type: req.body.Type
-                })
-                .value();
-        
-            cc_db.save();
+                .assign(assignment)
+                .write();
         });
 
         return router;

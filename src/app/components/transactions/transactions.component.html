@@ -9,7 +9,7 @@
                 <span class="spacer"></span>
                 <app-transactions-toolbar (onAdd)="add_cc_transactions($event)" [ExistingTransactions]="transaction_cc_service.transactions$ | async"></app-transactions-toolbar>
             </mat-toolbar>
-            <app-transactions-displayer [Data]="transaction_cc_service.transactions$ | async" [Columns]="['Amount', 'Date', 'Description', 'Type']"></app-transactions-displayer>
+            <app-transactions-displayer (onChange)="onCcChange($event)" [Data]="transaction_cc_service.transactions$ | async" [Columns]="['Amount', 'Date', 'Description', 'Type']"></app-transactions-displayer>
         </div>
     </div>
 
@@ -21,7 +21,7 @@
                 <app-transactions-toolbar (onAdd)="add_bank_transactions($event)" [ExistingTransactions]="transaction_bank_service.transactions$ | async"></app-transactions-toolbar>
             </mat-toolbar>
         </div>
-        <app-transactions-displayer [Data]="transaction_bank_service.transactions$ | async" [Columns]="['Amount', 'Date', 'Description']"></app-transactions-displayer>
+        <app-transactions-displayer (onChange)="onBankChange($event)" [Data]="transaction_bank_service.transactions$ | async" [Columns]="['Amount', 'Date', 'Description']"></app-transactions-displayer>
     </div>
 
 </div>

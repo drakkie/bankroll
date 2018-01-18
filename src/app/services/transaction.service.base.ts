@@ -20,8 +20,9 @@ export abstract class CrudServiceBase implements ICrud {
       .subscribe((result) => { this.read(); });
 
   }
-  update() {
-    throw new Error("Method not implemented.");
+  update(item: any) {
+    this.http.request(`put`, `/${this.transaction_type}/${item.id}`, { body: item } )
+      .subscribe((result) => { this.read(); })
   }
   read() {
     return this.http.get(`/${this.transaction_type}`).subscribe((ccs: any[]) => {
@@ -121,7 +122,7 @@ export abstract class TransactionService extends CrudServiceBase implements ICru
 export interface ICrud {
   add(item: any);
   delete(item: any);
-  update();
+  update(item: any);
   read();
 }
 

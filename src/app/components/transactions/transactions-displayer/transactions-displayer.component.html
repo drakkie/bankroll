@@ -9,7 +9,7 @@
       <ngx-datatable-column name="">
         <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
           <mat-form-field>
-              <mat-select placeholder="Select Category" [(ngModel)]="row.category"  (change)="onCategoryClick(row.id, $event)">
+              <mat-select placeholder="Select Category" [(ngModel)]="row.category"  (change)="onChange(row.id, 'category', $event)">
                 <mat-option value="ccpayment">Credit Card Payment</mat-option>
                 <mat-option value="utility">Utility</mat-option>
               </mat-select>

@@ -47,15 +47,14 @@ module.exports = (() => {
         
         router.put('/bank/:id', (req, res) => {
             let bank_id = req.params.id;
+            let field_to_update = req.body.field_to_update;
+            let value = req.body.value;
         
             bank_db('bank')
                 .chain()
                 .find({ id: bank_id })
                 .assign({
-                    Amount: req.body.Amount,
-                    Date: req.body.Date,
-                    Description: req.body.Description,
-                    Type: req.body.Type
+                    field_to_update: value
                 })
                 .value();
         
