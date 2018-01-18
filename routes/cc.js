@@ -42,20 +42,45 @@ module.exports = (() => {
             cc_db.save();
         });
         
-        router.put('/cc/:id', (req, res) => {
+        // router.put('/cc/:id', (req, res) => {
             
-            let cc_id = req.params.id;
+        //     let cc_id = req.params.id;
+        //     let field_to_update = req.body.field_to_update;
+        //     let value = req.body.value;
+            
+        //     let assignmentValueJSON = `{ "${field_to_update}": "${value}" }`;
+        //     let assignmentValue = JSON.parse(assignmentValueJSON);
+
+        //     cc_db
+        //         .get('cc')
+        //         .find({ id: cc_id })
+        //         .assign(assignmentValue)
+        //         .write();
+        // });
+
+        // RPC call! auto propagate values to same descriptions
+        router.put('/cc/UpdateByDescription', (req, res) => {
             let field_to_update = req.body.field_to_update;
             let value = req.body.value;
+            let description = req.body.description;
             
-            let assignmentJSON = `{ "${field_to_update}": "${value}" }`;
-            let assignment = JSON.parse(assignmentJSON);
+            let assignmentValueJSON = `{ "${field_to_update}": "${value}" }`;
+            let assignmentValue = JSON.parse(assignmentValueJSON);
 
-            cc_db
+            let cc_with_same_descriptions = cc_db
+            .get('cc')
+            .filter({ Description: description })
+             .value()
+
+            for (let cc of cc_with_same_descriptions) {
+                cc_db
                 .get('cc')
-                .find({ id: cc_id })
-                .assign(assignment)
+                .find({ id: cc.id })
+                .assign(assignmentValue)
                 .write();
+            }
+
+            res.send('done!');
         });
 
         return router;

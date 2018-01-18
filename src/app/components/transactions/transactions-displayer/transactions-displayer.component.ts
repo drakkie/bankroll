@@ -21,8 +21,8 @@ export class TransactionsDisplayerComponent implements OnInit {
   ngOnInit() {
   }
 
-  onChange(id: any, field_to_update: any, data: any){
-    this.change.emit({id: id, field_to_update: field_to_update, value: data.value});
+  onChange(description: any, field_to_update: any, data: any){
+    this.change.emit({description: description, field_to_update: field_to_update, value: data.value});
   }
 
 }
