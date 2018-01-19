@@ -18,11 +18,6 @@ module.exports = (() => {
             res.send(cc_db.get('cc').value());
         });
         
-        router.get('/cc/:id', (req, res) => {
-            let cc_id = req.params.id;
-            res.json(cc_db.get('cc').find({ id: cc_id }));
-        });
-        
         router.post('/cc', (req, res) => {
             let ccs = req.body;
             for (let cc of ccs) {
@@ -47,21 +42,46 @@ module.exports = (() => {
             cc_db.save();
         });
         
-        router.put('/person/:id', (req, res) => {
-            let cc_id = req.params.id;
-        
-            cc_db('cc')
-                .chain()
-                .find({ id: cc_id })
-                .assign({
-                    Amount: req.body.Amount,
-                    Date: req.body.Date,
-                    Description: req.body.Description,
-                    Type: req.body.Type
-                })
-                .value();
-        
-            cc_db.save();
+        // router.put('/cc/:id', (req, res) => {
+            
+        //     let cc_id = req.params.id;
+        //     let field_to_update = req.body.field_to_update;
+        //     let value = req.body.value;
+            
+        //     let assignmentValueJSON = `{ "${field_to_update}": "${value}" }`;
+        //     let assignmentValue = JSON.parse(assignmentValueJSON);
+
+        //     cc_db
+        //         .get('cc')
+        //         .find({ id: cc_id })
+        //         .assign(assignmentValue)
+        //         .write();
+        // });
+
+        // RPC! auto propagate values to same descriptions
+        router.put('/cc/UpdateByDescription', (req, res) => {
+            let field_to_update = req.body.field_to_update;
+            let value = req.body.value;
+            let description = req.body.description.substring(0,15);
+            
+            let assignmentValueJSON = `{ "${field_to_update}": "${value}" }`;
+            let assignmentValue = JSON.parse(assignmentValueJSON);
+
+            let cc_with_same_descriptions = cc_db
+            .get('cc')
+             .filter((transactions) => transactions.Description.indexOf(description) > -1)
+             .value();
+             
+            for (let cc of cc_with_same_descriptions) {
+                cc_db
+                .get('cc')
+                .find({ id: cc.id })
+                .assign(assignmentValue)
+                .write();
+            }
+
+            res.set('Content-Type', 'application/json');
+            res.send({});
         });
 
         return router;

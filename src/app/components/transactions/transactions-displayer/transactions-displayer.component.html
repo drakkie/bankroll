@@ -1,17 +1,25 @@
 <mat-card>
   <mat-card-title>Past Transactions</mat-card-title>
+
   <mat-card-content>
-    <mat-table #table [dataSource]="data_source">
+    <ngx-datatable [headerHeight]="30" [columnMode]="'force'" [rowHeight]="50" [rows]="data_source">
       <div *ngFor="let column of displayed_columns">
-        <ng-container matColumnDef={{column}}>
-          <mat-header-cell *matHeaderCellDef>{{column}}</mat-header-cell>
-          <mat-cell *matCellDef="let row">{{row[column]}}</mat-cell>
-        </ng-container>
+        <ngx-datatable-column name={{column}} prop={{column}}></ngx-datatable-column>
       </div>
-
-      <mat-header-row *matHeaderRowDef="displayed_columns"></mat-header-row>
-      <mat-row *matRowDef="let row; columns: displayed_columns;"></mat-row>
-
-    </mat-table>
+      <ngx-datatable-column name="">
+        <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+          <mat-form-field>
+              <mat-select placeholder="Select Category" [(ngModel)]="row.category"  (change)="onChange(row.Description, 'category', $event)">
+                <mat-option value="ccpayment">Credit Card Payment</mat-option>
+                <mat-option value="utility">Utility</mat-option>
+                <mat-option value="directdeposit">Direct Deposit (Salary)</mat-option>
+                <mat-option value="mortgage">Mortgage Payment</mat-option>
+                <mat-option value="car">Car Payment</mat-option>
+              </mat-select>
+            </mat-form-field>
+        </ng-template>
+      </ngx-datatable-column>
+      
+    </ngx-datatable>
   </mat-card-content>
 </mat-card>

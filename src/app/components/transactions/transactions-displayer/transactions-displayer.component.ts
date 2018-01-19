@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { DataSource } from '@angular/cdk/table';
 
 @Component({
@@ -9,13 +9,20 @@ import { DataSource } from '@angular/cdk/table';
 export class TransactionsDisplayerComponent implements OnInit {
 
   @Input('Data')
-  data_source: DataSource<any> | null;
+  data_source: any[];
   @Input('Columns')
   displayed_columns: string[];
+
+  @Output('onChange')
+  change = new EventEmitter<any>();
   
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onChange(description: any, field_to_update: any, data: any){
+    this.change.emit({description: description, field_to_update: field_to_update, value: data.value});
   }
 
 }
