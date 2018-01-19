@@ -26,7 +26,7 @@ export abstract class CrudServiceBase implements ICrud {
   // }
   update(item: any) {
     console.log(item);
-    this.http.request(`put`, `/${this.transaction_type}/UpdateByDescription`, { body: item } )
+    this.http.request(`put`, `/${this.transaction_type}/UpdateByDescription`, { body: item })
       .subscribe((result) => { console.log(result); this.read(); })
   }
   read() {
@@ -42,8 +42,7 @@ export abstract class TransactionService extends CrudServiceBase implements ICru
   //TODO: Rename to total_spent
   totals$: BehaviorSubject<any[]> = new BehaviorSubject([]);
   earnings$: BehaviorSubject<any[]> = new BehaviorSubject([]);
-  
-  spent_on_utilities$: BehaviorSubject<any[]> = new BehaviorSubject([]);
+  expenses$: BehaviorSubject<any[]> = new BehaviorSubject([]);
 
   read() {
     return this.http.get(`/${this.transaction_type}`).subscribe((ccs: Transaction[]) => {
@@ -75,13 +74,20 @@ export abstract class TransactionService extends CrudServiceBase implements ICru
               key: year_month,
               value: 0
             });
-
-            categories.push({
-              key: year_month,
-              category: '',
-              value: 0
-            });
           }
+
+          //if category != undefined
+          //if key doesnt already exist
+          //if category for key doesn't already exist
+          if (t.category && t.category != 'directdeposit') {
+            let year_month_exists = _.find(categories, { key: year_month, category: t.category });
+
+            if (!year_month_exists) {
+              let date_category = { key: year_month, category: t.category, value: 0 };
+              categories.push(date_category);
+            }
+          }
+
 
           //TODO: make two arrays in to a single object to improve performance
           //calculate money spent..
@@ -100,24 +106,22 @@ export abstract class TransactionService extends CrudServiceBase implements ICru
             if (o.key == year_month)
               if (t.category == 'directdeposit')
                 o.value += t.Amount;
-          });          
+          });
+
+          //essentially 
+          //"SELECT [key] = year_month, category, SUM(Amount) 
+          //FROM t 
+          //GROUP BY year_month, category"
+          _.find(categories, (o) => {
+            if (o.key == year_month && o.category == t.category) {
+              o.value += t.Amount;
+            }
+          })
         }
-
-
-        //todo: group by yearmonth as well..
-        console.log(
-        _(result)
-          .groupBy('category')
-          .map((transaction, category) =>({
-            category: category,
-            amount: _.sumBy(transaction, 'Amount')
-           })
-          )
-          .value()
-          );
 
         this.totals$.next(totals);
         this.earnings$.next(earnings);
+        this.expenses$.next(categories);
       });
   }
 }
