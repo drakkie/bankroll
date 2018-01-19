@@ -25,9 +25,6 @@ export class OverviewComponent implements OnInit {
       this.cc_spending = cc_transactions;
     });
 
-    Observable
-      .zip(this.transaction_bank_service.totals$, this.transaction_cc_service.totals$)
-      .subscribe(asdf => {console.log(asdf, "hello")});
 
   }
   

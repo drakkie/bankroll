@@ -39,9 +39,11 @@ export abstract class CrudServiceBase implements ICrud {
 export abstract class TransactionService extends CrudServiceBase implements ICrud {
 
   abstract http: HttpClient;
-
+  //TODO: Rename to total_spent
   totals$: BehaviorSubject<any[]> = new BehaviorSubject([]);
   earnings$: BehaviorSubject<any[]> = new BehaviorSubject([]);
+  
+  spent_on_utilities$: BehaviorSubject<any[]> = new BehaviorSubject([]);
 
   read() {
     return this.http.get(`/${this.transaction_type}`).subscribe((ccs: Transaction[]) => {
@@ -50,31 +52,13 @@ export abstract class TransactionService extends CrudServiceBase implements ICru
     });
   }
 
-  calculate_into_array() {
-    this.transactions$.subscribe((transactions: Transaction[]) => {
-      let totals = [];
-
-      for (let transaction of transactions) {
-        let date = new Date(transaction.Date);
-
-
-        let year_month = `${date.getFullYear()}-${date.getMonth()}`;
-
-        if (totals.findIndex(i => i.yearmonth == year_month) != -1) {
-          totals.push({
-            year_month: year_month,
-            total: 0
-          });
-        }
-      }
-    });
-  }
 
   calculate_year_month_totals() {
     this.transactions$
       .subscribe((result: Transaction[]) => {
         let totals = [];
         let earnings = [];
+        let categories = [];
 
         for (let t of result) {
           let date = new Date(t.Date);
@@ -91,29 +75,46 @@ export abstract class TransactionService extends CrudServiceBase implements ICru
               key: year_month,
               value: 0
             });
+
+            categories.push({
+              key: year_month,
+              category: '',
+              value: 0
+            });
           }
 
           //TODO: make two arrays in to a single object to improve performance
+          //calculate money spent..
           _.find(totals, (o) => {
             if (o.key == year_month) {
-              if (t.Amount < 0 &&
-                //TODO: make ability to link bank transactions as credit card payments, and auto link on new entries
-                //excluding chase epay..
-                t.Description.toLowerCase().indexOf('epay') == -1 &&
-                //excludingchase autopay
-                t.Description.toLowerCase().indexOf('autopay') == -1)
-                o.value += t.Amount;
+
+              if (!t.category) {
+                //exclude if it has a category: Utility/Credit Card Payment
+                o.value -= t.Amount;
+              }
             }
           });
 
+          //calculate money earned - only consider direct deposit for now
           _.find(earnings, (o) => {
             if (o.key == year_month)
-              if (t.Amount > 0)
-                o.value += t.Amount
-          });
+              if (t.category == 'directdeposit')
+                o.value += t.Amount;
+          });          
         }
 
 
+        //todo: group by yearmonth as well..
+        console.log(
+        _(result)
+          .groupBy('category')
+          .map((transaction, category) =>({
+            category: category,
+            amount: _.sumBy(transaction, 'Amount')
+           })
+          )
+          .value()
+          );
 
         this.totals$.next(totals);
         this.earnings$.next(earnings);

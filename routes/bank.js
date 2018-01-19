@@ -44,22 +44,47 @@ module.exports = (() => {
             bank_db('bank').remove({ id: cc_id });
             bank_db.save();
         });
-        
-        router.put('/bank/:id', (req, res) => {
-            let bank_id = req.params.id;
+
+        router.put('/bank/UpdateByDescription', (req, res) => {
             let field_to_update = req.body.field_to_update;
             let value = req.body.value;
-        
-            bank_db('bank')
-                .chain()
-                .find({ id: bank_id })
-                .assign({
-                    field_to_update: value
-                })
-                .value();
-        
-            bank_db.save();
+            let description = req.body.description.substring(0,15);
+            
+            let assignmentValueJSON = `{ "${field_to_update}": "${value}" }`;
+            let assignmentValue = JSON.parse(assignmentValueJSON);
+
+            let bank_with_same_descriptions = bank_db
+            .get('bank')
+            .filter((transactions) => transactions.Description.indexOf(description) > -1)
+             .value()
+
+            for (let bank of bank_with_same_descriptions) {
+                bank_db
+                .get('bank')
+                .find({ id: bank.id })
+                .assign(assignmentValue)
+                .write();
+            }
+
+            res.set('Content-Type', 'application/json');
+            res.send({});
         });
+        
+        // router.put('/bank/:id', (req, res) => {
+        //     let bank_id = req.params.id;
+        //     let field_to_update = req.body.field_to_update;
+        //     let value = req.body.value;
+        
+        //     bank_db('bank')
+        //         .chain()
+        //         .find({ id: bank_id })
+        //         .assign({
+        //             field_to_update: value
+        //         })
+        //         .value();
+        
+        //     bank_db.save();
+        // });
         
         return router;
     })();

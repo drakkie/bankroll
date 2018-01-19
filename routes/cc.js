@@ -58,20 +58,20 @@ module.exports = (() => {
         //         .write();
         // });
 
-        // RPC call! auto propagate values to same descriptions
+        // RPC! auto propagate values to same descriptions
         router.put('/cc/UpdateByDescription', (req, res) => {
             let field_to_update = req.body.field_to_update;
             let value = req.body.value;
-            let description = req.body.description;
+            let description = req.body.description.substring(0,15);
             
             let assignmentValueJSON = `{ "${field_to_update}": "${value}" }`;
             let assignmentValue = JSON.parse(assignmentValueJSON);
 
             let cc_with_same_descriptions = cc_db
             .get('cc')
-            .filter({ Description: description })
-             .value()
-
+             .filter((transactions) => transactions.Description.indexOf(description) > -1)
+             .value();
+             
             for (let cc of cc_with_same_descriptions) {
                 cc_db
                 .get('cc')
@@ -80,7 +80,8 @@ module.exports = (() => {
                 .write();
             }
 
-            res.send('done!');
+            res.set('Content-Type', 'application/json');
+            res.send({});
         });
 
         return router;

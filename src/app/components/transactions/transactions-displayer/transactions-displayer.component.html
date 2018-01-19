@@ -12,6 +12,9 @@
               <mat-select placeholder="Select Category" [(ngModel)]="row.category"  (change)="onChange(row.Description, 'category', $event)">
                 <mat-option value="ccpayment">Credit Card Payment</mat-option>
                 <mat-option value="utility">Utility</mat-option>
+                <mat-option value="directdeposit">Direct Deposit (Salary)</mat-option>
+                <mat-option value="mortgage">Mortgage Payment</mat-option>
+                <mat-option value="car">Car Payment</mat-option>
               </mat-select>
             </mat-form-field>
         </ng-template>
