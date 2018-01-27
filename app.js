@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));// get information from html 
 app.use(bodyParser.json());
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 app.use(methodOverride());
-app.use('/', router); // app.use('/parent', router); call all from localhost:port/parent/*
+app.use('/api', router);
 
 //routes are basically controllers
 let cc_route = require('./routes/cc');
@@ -22,5 +22,17 @@ let expense_route = require('./routes/expense');
 let goal_route = require('./routes/goal');
 
 app.use(expense_route, bank_route, cc_route, goal_route);
+
+
+app.get('/*', function (req, res) {
+    res.sendFile(__dirname + '/dist/index.html')
+    });
+
+ // app.use('/parent', router); call all from localhost:port/parent/*
+
+//catch all routes and send to index.html
+
+
+
 
 app.listen(port);

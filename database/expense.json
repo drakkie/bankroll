@@ -1,3 +1,10 @@
 {
-  "expense": []
+  "expense": [
+    {
+      "id": "eb3942c6-f206-4782-8724-1dfa0427e50a",
+      "name": "electricity",
+      "amount": 100,
+      "frequency": "Monthly"
+    }
+  ]
 }

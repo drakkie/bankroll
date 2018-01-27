@@ -1,28 +1,69 @@
-<div fxLayout="row" fxLayoutGap="10px">
-    <div fxFlex="33">
-      <mat-toolbar><mat-icon>credit_card</mat-icon>Credit Card Spending</mat-toolbar>
-      <mat-card>
-        <mat-card-content>
-          <app-total-displayer [yearMonthTotals]="transaction_cc_service.totals$ | async"></app-total-displayer>
-        </mat-card-content>
-      </mat-card>
-    </div>
-
-    <div fxFlex="33">
-      <mat-toolbar><mat-icon>money_off</mat-icon>Spending from Bank Account</mat-toolbar>
-      <mat-card>
-        <mat-card-content>
-          <app-total-displayer [yearMonthTotals]="transaction_bank_service.totals$ | async"></app-total-displayer>
-        </mat-card-content>
-      </mat-card>
-    </div>
-
-    <div fxFlex>
-      <mat-toolbar><mat-icon>attach_money</mat-icon>Money Earned!</mat-toolbar>
-      <mat-card>
-        <mat-card-content>
-          <app-total-displayer [yearMonthTotals]="transaction_bank_service.earnings$ | async"></app-total-displayer>
-        </mat-card-content>
-      </mat-card>
-    </div>
+<div fxLayout="row" fxLayoutGap="20px">
+  <div fxFlex="33">
+    <mat-toolbar>
+      Money left to spend this month
+    </mat-toolbar>
+    <mat-card>
+      <mat-card-content>
+        $2000
+      </mat-card-content>
+    </mat-card>
   </div>
+</div>
+
+<div fxLayout="row" fxLayoutGap="10px">
+  <div fxFlex="33">
+    <mat-toolbar>
+      <mat-icon>credit_card</mat-icon>Credit Card Spending</mat-toolbar>
+    <mat-card>
+      <mat-card-content>
+        <app-total-displayer [yearMonthTotals]="transaction_cc_service.totals$ | async"></app-total-displayer>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <div fxFlex="33">
+    <mat-toolbar>
+      <mat-icon>money_off</mat-icon>Spending from Bank Account</mat-toolbar>
+    <mat-card>
+      <mat-card-content>
+        <app-total-displayer [yearMonthTotals]="transaction_bank_service.totals$ | async"></app-total-displayer>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <div fxFlex>
+    <mat-toolbar>
+      <mat-icon>attach_money</mat-icon>Money Earned!</mat-toolbar>
+    <mat-card>
+      <mat-card-content>
+        <app-total-displayer [yearMonthTotals]="transaction_bank_service.earnings$ | async"></app-total-displayer>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+<div fxLayout="row" fxLayoutGap="10px">
+  <div fxFlex="50">
+    <mat-toolbar>
+      <mat-icon>credit_card</mat-icon>Expenses</mat-toolbar>
+    <mat-card>
+      <mat-card-content>
+        <ngx-datatable [headerHeight]="50" [footerHeight]="50" [rowHeight]="50" [rows]="expense_spending">
+          <ngx-datatable-column name="Year-Month" prop="key"></ngx-datatable-column>
+          <ngx-datatable-column name="Category" prop="category"></ngx-datatable-column>
+          <ngx-datatable-column name="value" prop="value"></ngx-datatable-column>
+          <ngx-datatable-footer>
+            <ng-template ngx-datatable-footer-template>
+              <div style="padding: 5px 10px">
+                <div>
+                  <hr style="width:100%" />
+                  <strong>Total</strong>: ${{totals}}
+                </div>
+              </div>
+            </ng-template>
+          </ngx-datatable-footer>
+        </ngx-datatable>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

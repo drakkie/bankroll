@@ -1,3 +1,4 @@
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -5,14 +6,14 @@ import { TransactionsComponent } from './transactions.component';
 import { TransactionsDisplayerComponent } from './transactions-displayer/transactions-displayer.component';
 
 import { 
-  MatTableModule,
   MatPaginatorModule,
   MatInputModule,
   MatCardModule,
   MatButtonModule,
   MatIconModule,
   MatToolbarModule,
-  MatDialogModule
+  MatDialogModule,
+  MatSelectModule
 } from '@angular/material';
 import { TransactionsAdderComponent } from './transactions-adder/transactions-adder.component';
 import { TransactionsToolbarComponent, TransactionsAddDialog } from './transactions-toolbar/transactions-toolbar.component';
@@ -20,7 +21,6 @@ import { TransactionsToolbarComponent, TransactionsAddDialog } from './transacti
 @NgModule({
   imports: [
     CommonModule,
-    MatTableModule,
     MatPaginatorModule,
     MatInputModule,
     MatCardModule,
@@ -28,7 +28,9 @@ import { TransactionsToolbarComponent, TransactionsAddDialog } from './transacti
     FormsModule,
     MatIconModule,
     MatToolbarModule,
-    MatDialogModule
+    MatDialogModule,
+    NgxDatatableModule,
+    MatSelectModule
   ],
   declarations: [
     TransactionsComponent,

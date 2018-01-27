@@ -13,17 +13,17 @@ module.exports = (() => {
     expense_db.defaults({ expense: [] }).write();
     
     
-    router.get('/expense', (req, res) => {
+    router.get('/api/expense', (req, res) => {
         res.set('Content-Type', 'application/json');
         res.send(expense_db.get('expense').value());
     });
     
-    router.get('/expense/:id', (req, res) => {
+    router.get('/api/expense/:id', (req, res) => {
         let expense_id = req.params.id;
         res.json(expense_db.get('expense').find({ id: expense_id }));
     });
     
-    router.post('/expense', (req, res) => {
+    router.post('/api/expense', (req, res) => {
         let expenses = req.body;
         for (let expense of expenses) {
             expense_db.get('expense')
@@ -37,7 +37,7 @@ module.exports = (() => {
         }
     });
     
-    router.delete('/expense/', (req, res) => {
+    router.delete('/api/expense/', (req, res) => {
         let expense_id = req.params.id;
         let expenses = req.body;
     
@@ -51,7 +51,7 @@ module.exports = (() => {
         res.send([]);
     });
     
-    router.put('/expense/:id', (req, res) => {
+    router.put('/api/expense/:id', (req, res) => {
         let expense_id = req.params.id;
     
         expense_db('expense')

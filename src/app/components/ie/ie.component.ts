@@ -23,8 +23,6 @@ export class IeComponent implements OnInit {
   }
 
   deleteExpense(value) {
-    console.log('delete expense');
-    console.log(this.expenseViewer.selected);
     this.expense_service.delete(this.expenseViewer.selected);
   }
 
@@ -33,9 +31,6 @@ export class IeComponent implements OnInit {
   }
 
   deleteGoal(value) {
-    console.log(value);
-    console.log(this.goalViewer.selected);
-
     this.goal_service.delete(this.goalViewer.selected);
   }
 

@@ -22,19 +22,11 @@ export class TransactionsComponent implements OnInit {
 
   transactionType$: BehaviorSubject<string> = new BehaviorSubject<string>('');
 
-  cc_data_source: CreditCardTransactionsDataSource | null;
-  bank_data_source: BankTransactionsDataSource | null;
   existing_cc_transactions$: Observable<Transaction[]>;
   existing_bank_transactions$: Observable<Transaction[]>;
 
-  @ViewChild(MatPaginator) paginator: MatPaginator;
-
   ngOnInit() {
     this.route.data.subscribe(data => { this.transactionType$.next(data.transactionType); console.log(data)});
-    
-    this.cc_data_source = new CreditCardTransactionsDataSource(this.transaction_cc_service.transactions$, this.paginator);
-
-    this.bank_data_source = new BankTransactionsDataSource(this.transaction_bank_service.transactions$, this.paginator);
   }
 
   add_cc_transactions(items: any[]) {
@@ -44,29 +36,12 @@ export class TransactionsComponent implements OnInit {
   add_bank_transactions(items: any[]) {
     this.transaction_bank_service.add(items);
   }
-}
 
-export class CreditCardTransactionsDataSource extends DataSource<any> {
-  constructor(private transactions$: Observable<Transaction[]>, private paginator: MatPaginator) {
-    super();
+  onCcChange(item: any){
+    this.transaction_cc_service.update(item);
   }
 
-  connect(): Observable<Transaction[]> {
-    return this.transactions$;
+  onBankChange(item: any) {
+    this.transaction_bank_service.update(item);
   }
-
-  disconnect() { }
-}
-
-
-export class BankTransactionsDataSource extends DataSource<any> {
-  constructor(private transactions$: Observable<Transaction[]>, private paginator: MatPaginator) {
-    super();
-  }
-
-  connect(): Observable<Transaction[]> {
-    return this.transactions$;
-  }
-
-  disconnect() { }
 }

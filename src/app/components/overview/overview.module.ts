@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { OverviewComponent } from './overview.component';
 import { TotalDisplayerComponent } from './total-displayer/total-displayer.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { ChartModule } from 'angular-highcharts';
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatToolbarModule,
     FlexLayoutModule,
     MatIconModule,
-    NgxDatatableModule
+    NgxDatatableModule,
+    ChartModule
   ],
   declarations: [
     OverviewComponent,

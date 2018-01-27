@@ -1,3 +1,10 @@
 {
-  "goal": []
+  "goal": [
+    {
+      "id": "8b90ac21-f6f2-43bd-8721-e6034c86c8ce",
+      "name": "PMI",
+      "amount": 1000,
+      "frequency": "Monthly"
+    }
+  ]
 }

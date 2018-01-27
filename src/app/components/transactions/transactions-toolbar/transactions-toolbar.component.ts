@@ -107,7 +107,8 @@ export class TransactionsAddDialog implements OnInit {
         Amount: +transaction_values[amount_index],
         Date: new Date(transaction_values[date_index]),
         Description: transaction_values[description_index],
-        Type: transaction_values[type_index]
+        Type: transaction_values[type_index],
+        category: null
       }
 
       new_transactions.push(new_transaction)
