@@ -11,12 +11,12 @@ export abstract class CrudServiceBase implements ICrud {
   transactions$: BehaviorSubject<Transaction[]> = new BehaviorSubject<Transaction[]>([]);
 
   add(items: any[]) {
-    this.http.post(`/${this.transaction_type}`, items).subscribe();
+    this.http.post(`/api/${this.transaction_type}`, items).subscribe();
     this.read();
   }
   delete(items: any[]) {
     //using this instead of this.http.delete, since delete does not allow a body - must use generic request
-    this.http.request(`delete`, `/${this.transaction_type}`, { body: items })
+    this.http.request(`delete`, `/api/${this.transaction_type}`, { body: items })
       .subscribe((result) => { this.read(); });
 
   }
@@ -26,11 +26,11 @@ export abstract class CrudServiceBase implements ICrud {
   // }
   update(item: any) {
     console.log(item);
-    this.http.request(`put`, `/${this.transaction_type}/UpdateByDescription`, { body: item })
+    this.http.request(`put`, `/api/${this.transaction_type}/UpdateByDescription`, { body: item })
       .subscribe((result) => { console.log(result); this.read(); })
   }
   read() {
-    return this.http.get(`/${this.transaction_type}`).subscribe((ccs: any[]) => {
+    return this.http.get(`/api/${this.transaction_type}`).subscribe((ccs: any[]) => {
       this.transactions$.next(ccs);
     });
   }
@@ -45,7 +45,7 @@ export abstract class TransactionService extends CrudServiceBase implements ICru
   expenses$: BehaviorSubject<any[]> = new BehaviorSubject([]);
 
   read() {
-    return this.http.get(`/${this.transaction_type}`).subscribe((ccs: Transaction[]) => {
+    return this.http.get(`/api/${this.transaction_type}`).subscribe((ccs: Transaction[]) => {
       this.transactions$.next(ccs);
       this.calculate_year_month_totals();
     });
@@ -79,7 +79,7 @@ export abstract class TransactionService extends CrudServiceBase implements ICru
           //if category != undefined
           //if key doesnt already exist
           //if category for key doesn't already exist
-          if (t.category && t.category != 'directdeposit') {
+          if (t.category && t.category != 'directdeposit' && t.category != 'ccpayment' && t.category !='mortgage') {
             let year_month_exists = _.find(categories, { key: year_month, category: t.category });
 
             if (!year_month_exists) {

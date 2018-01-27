@@ -1,3 +1,1630 @@
 {
-  "cc": []
+  "cc": [
+    {
+      "id": "18e85291-24a8-48ff-b42d-3a999ccc3bc5",
+      "Amount": 224.54,
+      "Date": "2017-10-23T07:00:00.000Z",
+      "Description": "Payment Thank You - Web",
+      "Type": "Payment",
+      "category": "ccpayment"
+    },
+    {
+      "id": "1dee21bd-3565-4a6f-bc1e-309e597ae354",
+      "Amount": -112.27,
+      "Date": "2017-10-09T07:00:00.000Z",
+      "Description": "TMOBILE*AUTO PAY",
+      "Type": "Sale",
+      "category": "utility"
+    },
+    {
+      "id": "a6243076-4a79-40e6-a3a1-0a52b107a7fa",
+      "Amount": -112.27,
+      "Date": "2017-09-09T07:00:00.000Z",
+      "Description": "TMOBILE*AUTO PAY",
+      "Type": "Sale",
+      "category": "utility"
+    },
+    {
+      "id": "faba2be8-3d04-40ea-add5-e4ac64f27c80",
+      "Amount": 224.54,
+      "Date": "2017-08-28T07:00:00.000Z",
+      "Description": "Payment Thank You - Web",
+      "Type": "Payment",
+      "category": "ccpayment"
+    },
+    {
+      "id": "23e6989f-6d4e-4cbe-84ee-e5ecf1708e2a",
+      "Amount": -112.27,
+      "Date": "2017-08-09T07:00:00.000Z",
+      "Description": "TMOBILE*AUTO PAY",
+      "Type": "Sale",
+      "category": "utility"
+    },
+    {
+      "id": "2b0392c4-aa32-4d90-8283-c945ad05bd4c",
+      "Amount": -69.7,
+      "Date": "2017-11-12T08:00:00.000Z",
+      "Description": "COSTCO WHSE #0679",
+      "Type": "Sale"
+    },
+    {
+      "id": "d28adf9e-e16a-4e2b-9ce4-c9e954085387",
+      "Amount": -39.31,
+      "Date": "2017-11-12T08:00:00.000Z",
+      "Description": "COSTCO GAS #0679",
+      "Type": "Sale"
+    },
+    {
+      "id": "0b4c2534-705f-4709-8f28-ad8306bcb03d",
+      "Amount": -79.86,
+      "Date": "2017-11-11T08:00:00.000Z",
+      "Description": "IKEA CARSON",
+      "Type": "Sale"
+    },
+    {
+      "id": "4d7691ee-a2f0-4387-be96-d063e5286fa6",
+      "Amount": -40.77,
+      "Date": "2017-11-11T08:00:00.000Z",
+      "Description": "POTTERY MFG &amp; DIST INC",
+      "Type": "Sale"
+    },
+    {
+      "id": "17ba77a6-ca77-49e8-a9eb-88947bdb0b4f",
+      "Amount": -58.46,
+      "Date": "2017-11-11T08:00:00.000Z",
+      "Description": "YAKITORI SHABU SHABU MP",
+      "Type": "Sale"
+    },
+    {
+      "id": "4a81dff1-7001-4744-bdf9-9a7d1ad98f56",
+      "Amount": -7.75,
+      "Date": "2017-11-11T08:00:00.000Z",
+      "Description": "85C BAKERY CAFE USA",
+      "Type": "Sale"
+    },
+    {
+      "id": "61df5fd3-c3fd-4053-80e2-69101244c85c",
+      "Amount": -14.9,
+      "Date": "2017-11-11T08:00:00.000Z",
+      "Description": "CHEVRON 0370117",
+      "Type": "Sale"
+    },
+    {
+      "id": "ce09a921-6972-4731-af0a-ed5958c92c9b",
+      "Amount": -40,
+      "Date": "2017-11-10T08:00:00.000Z",
+      "Description": "OLIVE GARDEN  00012484",
+      "Type": "Sale"
+    },
+    {
+      "id": "7ca43018-8471-46d8-8fc1-a1f4c749a950",
+      "Amount": -1.95,
+      "Date": "2017-11-10T08:00:00.000Z",
+      "Description": "STARBUCKS STORE 06859",
+      "Type": "Sale"
+    },
+    {
+      "id": "d5204ae9-bb76-4cab-b362-255316284928",
+      "Amount": -7.98,
+      "Date": "2017-11-09T08:00:00.000Z",
+      "Description": "MCDONALD'S F15660",
+      "Type": "Sale"
+    },
+    {
+      "id": "a4fa950f-a521-4392-ae51-7e2b15026aea",
+      "Amount": -8.42,
+      "Date": "2017-11-08T08:00:00.000Z",
+      "Description": "7-ELEVEN 39625",
+      "Type": "Sale"
+    },
+    {
+      "id": "03df4472-16eb-46af-b6ac-a7ace47c7d41",
+      "Amount": -1.95,
+      "Date": "2017-11-08T08:00:00.000Z",
+      "Description": "STARBUCKS STORE 06859",
+      "Type": "Sale"
+    },
+    {
+      "id": "2ad3de15-d915-4922-9ad0-eb8423389c77",
+      "Amount": -1.95,
+      "Date": "2017-11-07T08:00:00.000Z",
+      "Description": "STARBUCKS STORE 06859",
+      "Type": "Sale"
+    },
+    {
+      "id": "e342791e-059a-41ae-ac62-a21d1634226c",
+      "Amount": -21.88,
+      "Date": "2017-11-07T08:00:00.000Z",
+      "Description": "STREET FOOD OF SEOUL",
+      "Type": "Sale"
+    },
+    {
+      "id": "e654f6ec-72cb-45f1-84e6-5fec8aeefc8d",
+      "Amount": -9.84,
+      "Date": "2017-11-06T08:00:00.000Z",
+      "Description": "ACA GRILL",
+      "Type": "Sale"
+    },
+    {
+      "id": "b7eb385c-bb24-4d0e-a6cd-b1d44a79039b",
+      "Amount": -2.45,
+      "Date": "2017-11-06T08:00:00.000Z",
+      "Description": "STARBUCKS STORE 06859",
+      "Type": "Sale"
+    },
+    {
+      "id": "0e2e9e24-f40d-4def-8c70-fa1419a97fc4",
+      "Amount": -18.15,
+      "Date": "2017-11-05T07:00:00.000Z",
+      "Description": "BOSTON CAFE",
+      "Type": "Sale"
+    },
+    {
+      "id": "dcde9542-9db8-471f-b55d-1af16d0052a0",
+      "Amount": -12.95,
+      "Date": "2017-11-05T07:00:00.000Z",
+      "Description": "99 RANCH #1018",
+      "Type": "Sale"
+    },
+    {
+      "id": "a0fa2aaf-ca77-48aa-99c9-7244f36b0feb",
+      "Amount": -12.48,
+      "Date": "2017-11-05T07:00:00.000Z",
+      "Description": "TST* PIEOLOGY - WHITTIER",
+      "Type": "Sale"
+    },
+    {
+      "id": "8508033f-2ff5-4a2a-91d5-1850e963d32b",
+      "Amount": -9.59,
+      "Date": "2017-11-04T07:00:00.000Z",
+      "Description": "HALF &amp; HALF TEA EXPRESS",
+      "Type": "Sale"
+    },
+    {
+      "id": "aaf17cd4-a677-4f13-891b-0a74cb1b4354",
+      "Amount": -217.8,
+      "Date": "2017-11-04T07:00:00.000Z",
+      "Description": "IKEA COVINA LLC",
+      "Type": "Sale"
+    },
+    {
+      "id": "0cfc7ebd-12be-40ba-9783-f56bb2c426b8",
+      "Amount": -5.42,
+      "Date": "2017-11-03T07:00:00.000Z",
+      "Description": "GOGOBOP",
+      "Type": "Sale"
+    },
+    {
+      "id": "fb1b20ff-06d0-4cc8-82ac-5e31d1d508c6",
+      "Amount": -37.62,
+      "Date": "2017-11-03T07:00:00.000Z",
+      "Description": "BOILING POINT HACI",
+      "Type": "Sale"
+    },
+    {
+      "id": "1547b572-d145-44dc-bff1-7882b64b2e50",
+      "Amount": -8.73,
+      "Date": "2017-11-02T07:00:00.000Z",
+      "Description": "THE HOME DEPOT #6684",
+      "Type": "Sale"
+    },
+    {
+      "id": "86a5f922-4948-49f9-87e2-652fe0e4859d",
+      "Amount": -1.1,
+      "Date": "2017-11-02T07:00:00.000Z",
+      "Description": "CARL'S JR #7374",
+      "Type": "Sale"
+    },
+    {
+      "id": "a5aeb377-10a0-4a0b-ba1b-c9b694bb0b1f",
+      "Amount": -37.18,
+      "Date": "2017-11-01T07:00:00.000Z",
+      "Description": "AMAZON MKTPLACE PMTS",
+      "Type": "Sale"
+    },
+    {
+      "id": "7a8b0b2b-8f85-4995-944e-3d5ba4287968",
+      "Amount": -18.74,
+      "Date": "2017-10-31T07:00:00.000Z",
+      "Description": "H MART BUENA PARK",
+      "Type": "Sale"
+    },
+    {
+      "id": "dc259423-2689-47a6-9235-da8d153db225",
+      "Amount": -7.87,
+      "Date": "2017-10-30T07:00:00.000Z",
+      "Description": "7-ELEVEN 39625",
+      "Type": "Sale"
+    },
+    {
+      "id": "c6e2fad4-8fc3-47be-bee9-175bdae0fa41",
+      "Amount": -15.29,
+      "Date": "2017-10-29T07:00:00.000Z",
+      "Description": "TARGET        00014258",
+      "Type": "Sale"
+    },
+    {
+      "id": "baff8786-5a58-4d28-890a-dfe87d2d16c6",
+      "Amount": 10.95,
+      "Date": "2017-10-27T07:00:00.000Z",
+      "Description": "Rakuten.com",
+      "Type": "Return"
+    },
+    {
+      "id": "fc1c86c8-1539-47c7-ac06-7a52e3a95a1b",
+      "Amount": -8.76,
+      "Date": "2017-10-24T07:00:00.000Z",
+      "Description": "UBER   *US OCT23 2SGYW",
+      "Type": "Sale"
+    },
+    {
+      "id": "b48451cd-123d-43e6-b6d9-0934cca29255",
+      "Amount": -7.86,
+      "Date": "2017-10-24T07:00:00.000Z",
+      "Description": "UBER   *US OCT23 SYLFL",
+      "Type": "Sale"
+    },
+    {
+      "id": "a1e9cd63-69c0-4643-877c-3c1a37332b56",
+      "Amount": 4294.45,
+      "Date": "2017-10-23T07:00:00.000Z",
+      "Description": "Payment Thank You - Web",
+      "Type": "Payment",
+      "category": "ccpayment"
+    },
+    {
+      "id": "5d354621-331b-4ffe-b4ba-0f789eee6368",
+      "Amount": -10.6,
+      "Date": "2017-10-22T07:00:00.000Z",
+      "Description": "Devil Dawgs on State",
+      "Type": "Sale"
+    },
+    {
+      "id": "3249b6b0-1d32-4320-9270-172363b6cf26",
+      "Amount": -42.53,
+      "Date": "2017-10-22T07:00:00.000Z",
+      "Description": "GIORDANOS RESTAURANT",
+      "Type": "Sale"
+    },
+    {
+      "id": "e42a00d2-9d62-40d1-a54f-243e86e839b1",
+      "Amount": -13.29,
+      "Date": "2017-10-22T07:00:00.000Z",
+      "Description": "7-ELEVEN 36033",
+      "Type": "Sale"
+    },
+    {
+      "id": "8b74da34-1a0c-4bb2-a98b-956f6a6c3c36",
+      "Amount": -29.36,
+      "Date": "2017-10-22T07:00:00.000Z",
+      "Description": "UBER   *US OCT21 5DL7S",
+      "Type": "Sale"
+    },
+    {
+      "id": "2b26ee17-96c8-44be-abdb-8335e30c0453",
+      "Amount": -8,
+      "Date": "2017-10-22T07:00:00.000Z",
+      "Description": "SWA INFLIGHT WIFI",
+      "Type": "Sale"
+    },
+    {
+      "id": "c1ca954c-c192-47d4-82e6-35674118d371",
+      "Amount": -3,
+      "Date": "2017-10-21T07:00:00.000Z",
+      "Description": "UBER   *TIP P7PAR",
+      "Type": "Sale"
+    },
+    {
+      "id": "bdc36c75-cf9d-4d2d-a356-8949b58998bb",
+      "Amount": -30.44,
+      "Date": "2017-10-21T07:00:00.000Z",
+      "Description": "UBER   *US OCT21 P7PAR",
+      "Type": "Sale"
+    },
+    {
+      "id": "37ab9189-e718-4020-9c7f-a998483a5cff",
+      "Amount": -27.36,
+      "Date": "2017-10-21T07:00:00.000Z",
+      "Description": "Rakuten.com",
+      "Type": "Sale"
+    },
+    {
+      "id": "ddba6374-b4e4-4411-a8aa-e201f9d02bec",
+      "Amount": -4.02,
+      "Date": "2017-10-21T07:00:00.000Z",
+      "Description": "LAX SKY COFFEE BEAN",
+      "Type": "Sale"
+    },
+    {
+      "id": "e8035186-f1bd-454f-9671-4cba6d999c9b",
+      "Amount": -36.55,
+      "Date": "2017-10-20T07:00:00.000Z",
+      "Description": "COSTCO WHSE #0569",
+      "Type": "Sale"
+    },
+    {
+      "id": "e8af8c17-eabe-47de-9e2c-a90d6e2351db",
+      "Amount": -34.01,
+      "Date": "2017-10-20T07:00:00.000Z",
+      "Description": "COSTCO GAS #0569",
+      "Type": "Sale"
+    },
+    {
+      "id": "3a254e88-88be-4cbd-8935-583b2bc33e53",
+      "Amount": -7.65,
+      "Date": "2017-10-20T07:00:00.000Z",
+      "Description": "CAFE ACE",
+      "Type": "Sale"
+    },
+    {
+      "id": "d3078e69-428c-425e-8742-1e9672e7039f",
+      "Amount": -24,
+      "Date": "2017-10-20T07:00:00.000Z",
+      "Description": "SUP NOODLE BAR",
+      "Type": "Sale"
+    },
+    {
+      "id": "9f25cf79-85f7-40cb-99f4-d688e286a8f6",
+      "Amount": -11.25,
+      "Date": "2017-10-19T07:00:00.000Z",
+      "Description": "RALPHS #0245",
+      "Type": "Sale"
+    },
+    {
+      "id": "40920d19-37e1-43eb-92a0-ab2a5e49df06",
+      "Amount": -3,
+      "Date": "2017-10-19T07:00:00.000Z",
+      "Description": "85C BAKERY CAFE USA",
+      "Type": "Sale"
+    },
+    {
+      "id": "9491825e-c28e-4297-938e-86d574cd4aff",
+      "Amount": -14.77,
+      "Date": "2017-10-19T07:00:00.000Z",
+      "Description": "SAIYA RAMEN BAR",
+      "Type": "Sale"
+    },
+    {
+      "id": "db2ee604-6c7f-45cf-b7d6-711d59863b1f",
+      "Amount": -31.91,
+      "Date": "2017-10-18T07:00:00.000Z",
+      "Description": "TRADER JOE'S #048  QPS",
+      "Type": "Sale"
+    },
+    {
+      "id": "58cf9b32-5f89-4749-9b34-3c11b09678d9",
+      "Amount": -3,
+      "Date": "2017-10-17T07:00:00.000Z",
+      "Description": "85C BAKERY CAFE USA",
+      "Type": "Sale"
+    },
+    {
+      "id": "de4f17c6-eda2-41be-81fd-68bd740d2c83",
+      "Amount": -9.03,
+      "Date": "2017-10-16T07:00:00.000Z",
+      "Description": "STATERBROS137",
+      "Type": "Sale"
+    },
+    {
+      "id": "e2c46e5a-c8c7-4c64-8b68-92a8c1bd27bd",
+      "Amount": -48.51,
+      "Date": "2017-10-16T07:00:00.000Z",
+      "Description": "ESCALA",
+      "Type": "Sale"
+    },
+    {
+      "id": "6df244b1-5896-4a23-a1db-39f437c07b98",
+      "Amount": -2.99,
+      "Date": "2017-10-16T07:00:00.000Z",
+      "Description": "BASKIN #362088 Q35",
+      "Type": "Sale"
+    },
+    {
+      "id": "e0cdf679-7118-4fdc-af79-765d8f63af3c",
+      "Amount": 437.99,
+      "Date": "2017-10-15T07:00:00.000Z",
+      "Description": "COSTCO WHSE #0679",
+      "Type": "Return"
+    },
+    {
+      "id": "5371e0c2-8b64-4538-94ad-e23fafc62303",
+      "Amount": -17.43,
+      "Date": "2017-10-15T07:00:00.000Z",
+      "Description": "COSTCO WHSE #0679",
+      "Type": "Sale"
+    },
+    {
+      "id": "27c0f63c-3433-49e8-8d33-c2548a7bc612",
+      "Amount": -95,
+      "Date": "2017-10-15T07:00:00.000Z",
+      "Description": "CHEZ-MOI AND CODE",
+      "Type": "Sale"
+    },
+    {
+      "id": "f8c1364a-4d4e-4d2f-80fa-67265e3679b7",
+      "Amount": -44.99,
+      "Date": "2017-10-15T07:00:00.000Z",
+      "Description": "CHARTER COMMUNICATIONS",
+      "Type": "Sale"
+    },
+    {
+      "id": "3a2a1ed7-6059-484b-aba7-8c4876205213",
+      "Amount": -43.48,
+      "Date": "2017-10-15T07:00:00.000Z",
+      "Description": "COSTCO GAS #0679",
+      "Type": "Sale"
+    },
+    {
+      "id": "b02d915f-4cd9-4cc5-9b19-a9300ccbb1d0",
+      "Amount": -27.84,
+      "Date": "2017-10-14T07:00:00.000Z",
+      "Description": "SUP NOODLE BAR",
+      "Type": "Sale"
+    },
+    {
+      "id": "9b1385b6-d87f-48bc-88c5-b436c0556f4f",
+      "Amount": -4.82,
+      "Date": "2017-10-14T07:00:00.000Z",
+      "Description": "CHICK-FIL-A #03404",
+      "Type": "Sale"
+    },
+    {
+      "id": "8158daeb-c148-4568-a3de-0d6815258dc7",
+      "Amount": -16.05,
+      "Date": "2017-10-13T07:00:00.000Z",
+      "Description": "H MART BUENA PARK",
+      "Type": "Sale"
+    },
+    {
+      "id": "1023d6a4-8f97-4bf0-9771-7145db6a9a68",
+      "Amount": -12.4,
+      "Date": "2017-10-13T07:00:00.000Z",
+      "Description": "MY THAI",
+      "Type": "Sale"
+    },
+    {
+      "id": "f02ce3de-66d4-4330-8ac1-db8e3a58ec20",
+      "Amount": -8.6,
+      "Date": "2017-10-12T07:00:00.000Z",
+      "Description": "UBER   *US OCT11 GYR4K",
+      "Type": "Sale"
+    },
+    {
+      "id": "298f065b-2209-4f47-b5a1-c084297aff4c",
+      "Amount": -5,
+      "Date": "2017-10-11T07:00:00.000Z",
+      "Description": "STEAMGAMES.COM4259522985",
+      "Type": "Sale"
+    },
+    {
+      "id": "d8e1b025-0b86-45c7-b8d1-2fb7590753e4",
+      "Amount": -16.32,
+      "Date": "2017-10-11T07:00:00.000Z",
+      "Description": "PANDA EXPRESS 1543",
+      "Type": "Sale"
+    },
+    {
+      "id": "e644d398-b421-4ee3-9c8b-ff4321330cd1",
+      "Amount": -15.09,
+      "Date": "2017-10-11T07:00:00.000Z",
+      "Description": "WAKO DONKASU",
+      "Type": "Sale"
+    },
+    {
+      "id": "e5fcb650-b68a-40be-88dd-f215b571a8ce",
+      "Amount": -8.5,
+      "Date": "2017-10-11T07:00:00.000Z",
+      "Description": "METROLINK",
+      "Type": "Sale"
+    },
+    {
+      "id": "3ce7379f-cab8-411b-bf59-ab708ca82043",
+      "Amount": -11.87,
+      "Date": "2017-10-11T07:00:00.000Z",
+      "Description": "LYFT   *RIDE WED 7AM",
+      "Type": "Sale"
+    },
+    {
+      "id": "a2082979-2bda-4bc5-a328-cacf74fe82cd",
+      "Amount": -80.65,
+      "Date": "2017-10-09T07:00:00.000Z",
+      "Description": "SELECT BLINDS",
+      "Type": "Sale"
+    },
+    {
+      "id": "4d93e8a9-6c5d-44e6-a6c2-3e9cb2ac5999",
+      "Amount": -3,
+      "Date": "2017-10-09T07:00:00.000Z",
+      "Description": "85C BAKERY CAFE USA",
+      "Type": "Sale"
+    },
+    {
+      "id": "59bf7e37-b65a-4caa-b8ba-656896e5ab97",
+      "Amount": -6,
+      "Date": "2017-10-08T07:00:00.000Z",
+      "Description": "85C BAKERY CAFE USA",
+      "Type": "Sale"
+    },
+    {
+      "id": "0b9b607c-092c-4d5e-a241-a8ac6b8d92fb",
+      "Amount": -42.04,
+      "Date": "2017-10-08T07:00:00.000Z",
+      "Description": "COSTCO GAS #0679",
+      "Type": "Sale"
+    },
+    {
+      "id": "e941b80b-9e53-4ba8-b623-709b02422ca7",
+      "Amount": -82.92,
+      "Date": "2017-10-08T07:00:00.000Z",
+      "Description": "COSTCO WHSE #0679",
+      "Type": "Sale"
+    },
+    {
+      "id": "3e2b422b-26dd-4bf3-991b-90641c8acf1f",
+      "Amount": -14.5,
+      "Date": "2017-10-06T07:00:00.000Z",
+      "Description": "DELHI BITES",
+      "Type": "Sale"
+    },
+    {
+      "id": "44d2ec7b-379b-4466-97e0-8259c11e9cc4",
+      "Amount": -31,
+      "Date": "2017-10-06T07:00:00.000Z",
+      "Description": "COWBOY CAFE",
+      "Type": "Sale"
+    },
+    {
+      "id": "3a71d717-dbb9-4af0-a66c-01fc8f35e321",
+      "Amount": -12,
+      "Date": "2017-10-05T07:00:00.000Z",
+      "Description": "MY THAI",
+      "Type": "Sale"
+    },
+    {
+      "id": "920cd7c2-3895-4818-95ef-d1b3ddea5390",
+      "Amount": -18.01,
+      "Date": "2017-10-04T07:00:00.000Z",
+      "Description": "Amazon.com",
+      "Type": "Sale"
+    },
+    {
+      "id": "fa99edb5-f5da-42b2-bbbf-d5447e327f8b",
+      "Amount": -39.99,
+      "Date": "2017-10-04T07:00:00.000Z",
+      "Description": "PLAYSTATION NETWORK",
+      "Type": "Sale"
+    },
+    {
+      "id": "c179f95d-831c-401b-b65d-1a3a1916df68",
+      "Amount": -3.85,
+      "Date": "2017-10-03T07:00:00.000Z",
+      "Description": "SQ *ALCHEMIST COFFEE PROJ",
+      "Type": "Sale"
+    },
+    {
+      "id": "abb7d87a-ba1e-4791-bd9b-5f52e1391bd4",
+      "Amount": -17.75,
+      "Date": "2017-10-03T07:00:00.000Z",
+      "Description": "THAI FOOD PICK UP LLC",
+      "Type": "Sale"
+    },
+    {
+      "id": "17b1c85c-0795-403a-bdb4-e693406a6e94",
+      "Amount": -7.65,
+      "Date": "2017-10-02T07:00:00.000Z",
+      "Description": "CAFE ACE",
+      "Type": "Sale"
+    },
+    {
+      "id": "ccaf6ea1-9f65-42f3-848b-b76e66f02b85",
+      "Amount": -3,
+      "Date": "2017-10-02T07:00:00.000Z",
+      "Description": "85C BAKERY CAFE USA",
+      "Type": "Sale"
+    },
+    {
+      "id": "b3b645c6-0445-4ce7-a54f-b5472120a7ff",
+      "Amount": -13.13,
+      "Date": "2017-10-02T07:00:00.000Z",
+      "Description": "AMAZON MKTPLACE PMTS",
+      "Type": "Sale"
+    },
+    {
+      "id": "f1758559-e3d7-43be-9e89-ee15c8415c25",
+      "Amount": 685.13,
+      "Date": "2017-10-01T07:00:00.000Z",
+      "Description": "AUTOMATIC PAYMENT - THANK",
+      "Type": "Payment",
+      "category": "ccpayment"
+    },
+    {
+      "id": "99f19c1f-8cf3-43a6-9df4-be7aabe24fad",
+      "Amount": -384.31,
+      "Date": "2017-10-01T07:00:00.000Z",
+      "Description": "BLINDS.COM #2150",
+      "Type": "Sale"
+    },
+    {
+      "id": "f8dc0e66-f26d-41e1-9814-f7b59b321601",
+      "Amount": -1000.05,
+      "Date": "2017-10-01T07:00:00.000Z",
+      "Description": "BLINDS.COM #2150",
+      "Type": "Sale"
+    },
+    {
+      "id": "1a15eea8-bf4f-465b-b941-5cc67f939cd8",
+      "Amount": -59,
+      "Date": "2017-09-30T07:00:00.000Z",
+      "Description": "SAN GABRIEL SPRSTR",
+      "Type": "Sale"
+    },
+    {
+      "id": "81ca364a-0f95-44d7-acc9-9b672b087903",
+      "Amount": 46.97,
+      "Date": "2017-09-30T07:00:00.000Z",
+      "Description": "PETSMART # 1566",
+      "Type": "Return"
+    },
+    {
+      "id": "cf2a045b-b0f4-472f-b4a4-1e99c4039b8c",
+      "Amount": -13.1,
+      "Date": "2017-09-30T07:00:00.000Z",
+      "Description": "AMORE",
+      "Type": "Sale"
+    },
+    {
+      "id": "0d5a06f1-d33f-42d7-99c2-2652a35bff95",
+      "Amount": -12.49,
+      "Date": "2017-09-30T07:00:00.000Z",
+      "Description": "CHICK-FIL-A #03404",
+      "Type": "Sale"
+    },
+    {
+      "id": "ab5d45a2-6a1d-427b-b604-fc91c663d420",
+      "Amount": -11.24,
+      "Date": "2017-09-29T07:00:00.000Z",
+      "Description": "TENGOKU RAMEN BAR",
+      "Type": "Sale"
+    },
+    {
+      "id": "48722f44-f7ed-418b-9cf9-b41e9e24803a",
+      "Amount": -11.23,
+      "Date": "2017-09-29T07:00:00.000Z",
+      "Description": "TENGOKU RAMEN BAR",
+      "Type": "Sale"
+    },
+    {
+      "id": "53b86880-09ed-4a6e-9c93-917b43a8ad97",
+      "Amount": -1,
+      "Date": "2017-09-29T07:00:00.000Z",
+      "Description": "LA CITY PARKING METER",
+      "Type": "Sale"
+    },
+    {
+      "id": "2f80af35-e0f9-4061-be45-617ae8b31e29",
+      "Amount": -56.45,
+      "Date": "2017-09-28T07:00:00.000Z",
+      "Description": "PETSMART # 1566",
+      "Type": "Sale"
+    },
+    {
+      "id": "888974f2-423d-444e-a90f-f5a87cb15533",
+      "Amount": -7.64,
+      "Date": "2017-09-28T07:00:00.000Z",
+      "Description": "CAFE ACE",
+      "Type": "Sale"
+    },
+    {
+      "id": "5c597571-dfd9-46a1-8be4-1201695b6ad7",
+      "Amount": -13,
+      "Date": "2017-09-27T07:00:00.000Z",
+      "Description": "ESCALA",
+      "Type": "Sale"
+    },
+    {
+      "id": "a52387d7-281b-4109-ba84-a92d94cafdb1",
+      "Amount": -14.16,
+      "Date": "2017-09-27T07:00:00.000Z",
+      "Description": "AJI ICHIBAN MONTEREY PAR",
+      "Type": "Sale"
+    },
+    {
+      "id": "d0e4c185-faf1-4dd1-9362-3b54ad701242",
+      "Amount": -29,
+      "Date": "2017-09-27T07:00:00.000Z",
+      "Description": "SQ *PHOENIX DESSERT INC.",
+      "Type": "Sale"
+    },
+    {
+      "id": "dbe6c9dd-c5a5-4e88-b0c0-f756b65ddf86",
+      "Amount": -7.6,
+      "Date": "2017-09-26T07:00:00.000Z",
+      "Description": "PIZZA REV 11",
+      "Type": "Sale"
+    },
+    {
+      "id": "fae6f53f-3ad8-410f-944d-6d65e756b3b2",
+      "Amount": -27.2,
+      "Date": "2017-09-25T07:00:00.000Z",
+      "Description": "EARTH KITCHEN",
+      "Type": "Sale"
+    },
+    {
+      "id": "f656014b-b229-4241-a3e5-fabd4c2563c4",
+      "Amount": -11,
+      "Date": "2017-09-25T07:00:00.000Z",
+      "Description": "MY THAI",
+      "Type": "Sale"
+    },
+    {
+      "id": "6aa6db03-897f-468a-8216-8d5f7c30998c",
+      "Amount": -8.83,
+      "Date": "2017-09-24T07:00:00.000Z",
+      "Description": "MCDONALD'S F15660",
+      "Type": "Sale"
+    },
+    {
+      "id": "865c6208-6f0d-4cac-a60a-67e59b450ce6",
+      "Amount": -1.78,
+      "Date": "2017-09-24T07:00:00.000Z",
+      "Description": "UBER   *US SEP23 44AUW",
+      "Type": "Sale"
+    },
+    {
+      "id": "afa2a588-7651-4555-a724-5665a378e332",
+      "Amount": -46.51,
+      "Date": "2017-09-24T07:00:00.000Z",
+      "Description": "WINGSTOP 1033",
+      "Type": "Sale"
+    },
+    {
+      "id": "15db2399-4cbe-4b69-9734-f08c265823b8",
+      "Amount": -20.58,
+      "Date": "2017-09-24T07:00:00.000Z",
+      "Description": "UBER   *US SEP23 4OA67",
+      "Type": "Sale"
+    },
+    {
+      "id": "23489505-f08f-439a-ac7b-25b38a7c27dd",
+      "Amount": -13.82,
+      "Date": "2017-09-23T07:00:00.000Z",
+      "Description": "SUMO DOG",
+      "Type": "Sale"
+    },
+    {
+      "id": "dd173b66-546b-4bc6-aa70-31eb0ba82901",
+      "Amount": -15.67,
+      "Date": "2017-09-23T07:00:00.000Z",
+      "Description": "CHICK-FIL-A #03404",
+      "Type": "Sale"
+    },
+    {
+      "id": "0c7479d7-cc19-4b38-b499-5d500a50d1e9",
+      "Amount": -514.53,
+      "Date": "2017-09-23T07:00:00.000Z",
+      "Description": "WHITTIER CYCLERY INC",
+      "Type": "Sale"
+    },
+    {
+      "id": "0e991578-e7f9-4445-8361-cd461ccb25e1",
+      "Amount": -68,
+      "Date": "2017-09-23T07:00:00.000Z",
+      "Description": "KING SHABU SHABU CER",
+      "Type": "Sale"
+    },
+    {
+      "id": "5fea81fd-4649-46be-bdba-a56e0ea157cc",
+      "Amount": -1,
+      "Date": "2017-09-22T07:00:00.000Z",
+      "Description": "LA CITY PARKING METER",
+      "Type": "Sale"
+    },
+    {
+      "id": "fde06940-9cdb-4d0d-847e-6126a8d22605",
+      "Amount": -41.42,
+      "Date": "2017-09-19T07:00:00.000Z",
+      "Description": "REMYS NOODLE PALACE",
+      "Type": "Sale"
+    },
+    {
+      "id": "6497c284-2bf7-4c48-955a-343ddc643a41",
+      "Amount": -235.41,
+      "Date": "2017-09-18T07:00:00.000Z",
+      "Description": "BESTBUYCOM804617016501",
+      "Type": "Sale"
+    },
+    {
+      "id": "abb56fff-626f-43ad-85a2-b8caf80d8343",
+      "Amount": -8.58,
+      "Date": "2017-09-18T07:00:00.000Z",
+      "Description": "RALPHS #0245",
+      "Type": "Sale"
+    },
+    {
+      "id": "07c9c79b-cfba-4852-9d66-2e62c00f9b5b",
+      "Amount": -20.98,
+      "Date": "2017-09-17T07:00:00.000Z",
+      "Description": "CALI MART",
+      "Type": "Sale"
+    },
+    {
+      "id": "9eb1c521-a512-49e3-99ee-c6f263e21859",
+      "Amount": -16.21,
+      "Date": "2017-09-17T07:00:00.000Z",
+      "Description": "CALI MART",
+      "Type": "Sale"
+    },
+    {
+      "id": "119b6052-94d3-4a64-abb1-23ab1932e02a",
+      "Amount": -4.01,
+      "Date": "2017-09-16T07:00:00.000Z",
+      "Description": "WETZEL'S PRETZELS",
+      "Type": "Sale"
+    },
+    {
+      "id": "a9bd7955-c971-48d9-a06c-c906f2f0faac",
+      "Amount": -51.34,
+      "Date": "2017-09-16T07:00:00.000Z",
+      "Description": "GYUKAKU",
+      "Type": "Sale"
+    },
+    {
+      "id": "78062001-bf2f-407e-b89c-a6ad1cdcf2d2",
+      "Amount": -56.41,
+      "Date": "2017-09-16T07:00:00.000Z",
+      "Description": "CAFE HIRO",
+      "Type": "Sale"
+    },
+    {
+      "id": "61de239b-0b4c-4586-bac9-5a5dab5ce030",
+      "Amount": -3.5,
+      "Date": "2017-09-15T07:00:00.000Z",
+      "Description": "SQ *CERRITOS - FROSTBITES",
+      "Type": "Sale"
+    },
+    {
+      "id": "5475c3bd-6f73-424f-be04-101216758180",
+      "Amount": -10.46,
+      "Date": "2017-09-15T07:00:00.000Z",
+      "Description": "7-ELEVEN 39625",
+      "Type": "Sale"
+    },
+    {
+      "id": "8eccc714-162d-4a43-87f6-a62c13735aae",
+      "Amount": -49.62,
+      "Date": "2017-09-14T07:00:00.000Z",
+      "Description": "AMAZON MKTPLACE PMTS",
+      "Type": "Sale"
+    },
+    {
+      "id": "a0515370-9bd9-41f1-acf8-dc9ff283d633",
+      "Amount": -8.28,
+      "Date": "2017-09-14T07:00:00.000Z",
+      "Description": "7-ELEVEN 39625",
+      "Type": "Sale"
+    },
+    {
+      "id": "0936892a-674f-4739-8208-80ddb37eb4ae",
+      "Amount": -10.87,
+      "Date": "2017-09-14T07:00:00.000Z",
+      "Description": "THE HALAL GUYS",
+      "Type": "Sale"
+    },
+    {
+      "id": "2981cbc1-59be-4830-9e3c-f5653f96d059",
+      "Amount": -44.99,
+      "Date": "2017-09-14T07:00:00.000Z",
+      "Description": "CHARTER COMMUNICATIONS",
+      "Type": "Sale"
+    },
+    {
+      "id": "ab5becf1-13e0-4a29-a7ba-b0e7b5d49a08",
+      "Amount": -12.91,
+      "Date": "2017-09-13T07:00:00.000Z",
+      "Description": "ROLL CALL",
+      "Type": "Sale"
+    },
+    {
+      "id": "5ec136b6-5fd0-4098-aa6b-f339374c42a8",
+      "Amount": -5.04,
+      "Date": "2017-09-12T07:00:00.000Z",
+      "Description": "CIRCLE K 05225",
+      "Type": "Sale"
+    },
+    {
+      "id": "9cb7de66-e96e-48a1-a3e6-359950a27003",
+      "Amount": -8.28,
+      "Date": "2017-09-12T07:00:00.000Z",
+      "Description": "7-ELEVEN 39625",
+      "Type": "Sale"
+    },
+    {
+      "id": "be21f37e-d32b-4c35-bc53-6f099599e589",
+      "Amount": -7.6,
+      "Date": "2017-09-12T07:00:00.000Z",
+      "Description": "PIZZA REV 11",
+      "Type": "Sale"
+    },
+    {
+      "id": "ec01c1f7-fe2c-4490-ac7d-7c7a12633fd8",
+      "Amount": -33,
+      "Date": "2017-09-10T07:00:00.000Z",
+      "Description": "LUSCIOUS DUMPLINGS",
+      "Type": "Sale"
+    },
+    {
+      "id": "08922483-fc93-44bb-8616-89b373b9027d",
+      "Amount": -4.85,
+      "Date": "2017-09-10T07:00:00.000Z",
+      "Description": "COSTCO WHSE #0679",
+      "Type": "Sale"
+    },
+    {
+      "id": "53eeb37b-297d-4f12-bd7b-1a50b310ca7e",
+      "Amount": -19.15,
+      "Date": "2017-09-10T07:00:00.000Z",
+      "Description": "BOSTON CAFE",
+      "Type": "Sale"
+    },
+    {
+      "id": "5de4c431-f02a-4a07-acf3-ecfab77c466d",
+      "Amount": -265.15,
+      "Date": "2017-09-10T07:00:00.000Z",
+      "Description": "SELECTBLINDS",
+      "Type": "Sale"
+    },
+    {
+      "id": "d966d011-983b-4ba2-a99d-9654c75cb8a8",
+      "Amount": -25.66,
+      "Date": "2017-09-10T07:00:00.000Z",
+      "Description": "COSTCO GAS #0679",
+      "Type": "Sale"
+    },
+    {
+      "id": "5a7a8cd5-baa1-413e-9f72-3bb8c92a044b",
+      "Amount": -45.2,
+      "Date": "2017-09-10T07:00:00.000Z",
+      "Description": "COSTCO WHSE #0679",
+      "Type": "Sale"
+    },
+    {
+      "id": "7395adb5-47a7-4ca3-b428-873e212cc50e",
+      "Amount": -12.77,
+      "Date": "2017-09-09T07:00:00.000Z",
+      "Description": "TRADER JOE'S #048  QPS",
+      "Type": "Sale"
+    },
+    {
+      "id": "8d508d91-d61b-4724-8e38-fd21bddfe293",
+      "Amount": -9.82,
+      "Date": "2017-09-09T07:00:00.000Z",
+      "Description": "ORCHARD SUPPLY #351",
+      "Type": "Sale"
+    },
+    {
+      "id": "44ce147d-ec3d-46e7-bf48-d664b03681be",
+      "Amount": -1.5,
+      "Date": "2017-09-09T07:00:00.000Z",
+      "Description": "LA CITY PARKING METER",
+      "Type": "Sale"
+    },
+    {
+      "id": "4cce65bc-5766-459c-8c2a-37ce57bab3be",
+      "Amount": -10.46,
+      "Date": "2017-09-09T07:00:00.000Z",
+      "Description": "AJI ICHIBAN MONTEREY PAR",
+      "Type": "Sale"
+    },
+    {
+      "id": "e6aa3cd2-c7d5-4820-ae09-00316fde1932",
+      "Amount": -50,
+      "Date": "2017-09-09T07:00:00.000Z",
+      "Description": "GATTEN SUSHI MONTEREY PAR",
+      "Type": "Sale"
+    },
+    {
+      "id": "b6b6dc2b-fdcb-4ef4-a470-ff06b181bf26",
+      "Amount": -22.38,
+      "Date": "2017-09-09T07:00:00.000Z",
+      "Description": "FRESH OFF THE HOOK",
+      "Type": "Sale"
+    },
+    {
+      "id": "3db95c23-d5b5-4327-a6f1-cd98480944c7",
+      "Amount": -8.48,
+      "Date": "2017-09-09T07:00:00.000Z",
+      "Description": "DUNKIN #352432 Q35",
+      "Type": "Sale"
+    },
+    {
+      "id": "b2859c76-6c8b-475d-83d7-72505753648a",
+      "Amount": -12.67,
+      "Date": "2017-09-09T07:00:00.000Z",
+      "Description": "CHICK-FIL-A #03404",
+      "Type": "Sale"
+    },
+    {
+      "id": "74878642-b3e6-417b-b97d-b5b34fa5f4f6",
+      "Amount": -8.28,
+      "Date": "2017-09-08T07:00:00.000Z",
+      "Description": "7-ELEVEN 39625",
+      "Type": "Sale"
+    },
+    {
+      "id": "cf318c20-638e-406f-8c7b-8737cec071dc",
+      "Amount": -8.28,
+      "Date": "2017-09-06T07:00:00.000Z",
+      "Description": "7-ELEVEN 39625",
+      "Type": "Sale"
+    },
+    {
+      "id": "05cedac3-62de-4c36-9276-ef2ed2dfaea6",
+      "Amount": -20.33,
+      "Date": "2017-09-06T07:00:00.000Z",
+      "Description": "YOUNIQUE CAFE",
+      "Type": "Sale"
+    },
+    {
+      "id": "2bae1473-d75a-4a2c-92cd-e90143bc33ad",
+      "Amount": -12.5,
+      "Date": "2017-09-06T07:00:00.000Z",
+      "Description": "SQ *BOO'S PHILLY KTOWN",
+      "Type": "Sale"
+    },
+    {
+      "id": "727ad616-06d1-4b2f-88c1-b3af659861b6",
+      "Amount": -44.01,
+      "Date": "2017-09-06T07:00:00.000Z",
+      "Description": "COSTCO GAS #0569",
+      "Type": "Sale"
+    },
+    {
+      "id": "ffe11b31-39fa-49a0-bbf0-718318699b3d",
+      "Amount": -22.99,
+      "Date": "2017-09-06T07:00:00.000Z",
+      "Description": "AMAZON MKTPLACE PMTS",
+      "Type": "Sale"
+    },
+    {
+      "id": "0eaadd9a-131b-47c7-a933-101009e3f253",
+      "Amount": -13.68,
+      "Date": "2017-09-05T07:00:00.000Z",
+      "Description": "Amazon.com",
+      "Type": "Sale"
+    },
+    {
+      "id": "5c56dd55-59ca-4f38-bb6e-7e77d4e5abb9",
+      "Amount": -14.57,
+      "Date": "2017-09-05T07:00:00.000Z",
+      "Description": "SAIYA RAMEN BAR",
+      "Type": "Sale"
+    },
+    {
+      "id": "20c8dd89-7cb2-42ac-bd67-063627c6ea1a",
+      "Amount": -12.61,
+      "Date": "2017-09-04T07:00:00.000Z",
+      "Description": "CHICK-FIL-A #03404",
+      "Type": "Sale"
+    },
+    {
+      "id": "4d63f267-d0f8-4996-bd95-341b29fbbf62",
+      "Amount": -20,
+      "Date": "2017-09-04T07:00:00.000Z",
+      "Description": "CHEVRON 0359801",
+      "Type": "Sale"
+    },
+    {
+      "id": "141cbd9d-6221-4a17-9cd8-b1e73e8f8a34",
+      "Amount": -39.99,
+      "Date": "2017-09-04T07:00:00.000Z",
+      "Description": "PlaystationNetwork",
+      "Type": "Sale"
+    },
+    {
+      "id": "401021d7-c732-4648-bb4a-3c45620b844a",
+      "Amount": -1.29,
+      "Date": "2017-09-04T07:00:00.000Z",
+      "Description": "ALDI 79119",
+      "Type": "Sale"
+    },
+    {
+      "id": "d2bb3830-0fc8-4c79-8502-ffa0fb8a5bc0",
+      "Amount": -52.9,
+      "Date": "2017-09-04T07:00:00.000Z",
+      "Description": "WAL-MART #2886",
+      "Type": "Sale"
+    },
+    {
+      "id": "0043252a-d45b-41b2-8bf6-704810c44bc9",
+      "Amount": -14.04,
+      "Date": "2017-09-04T07:00:00.000Z",
+      "Description": "RALPHS #0245",
+      "Type": "Sale"
+    },
+    {
+      "id": "969d7be4-e101-4a34-890f-1029d36e8417",
+      "Amount": -10,
+      "Date": "2017-09-03T07:00:00.000Z",
+      "Description": "CHEVRON 0359801",
+      "Type": "Sale"
+    },
+    {
+      "id": "0c57ab42-7820-4749-b8b0-a8d9d40f0ed8",
+      "Amount": -188.44,
+      "Date": "2017-09-03T07:00:00.000Z",
+      "Description": "COSTCO WHSE #0459",
+      "Type": "Sale"
+    },
+    {
+      "id": "b8851623-5f10-46ca-b7f9-118181ced2e1",
+      "Amount": -37.32,
+      "Date": "2017-09-03T07:00:00.000Z",
+      "Description": "LUSCIOUS DUMPLINGS",
+      "Type": "Sale"
+    },
+    {
+      "id": "2b8ef005-1fd9-414f-9fc0-64a40b62a41e",
+      "Amount": -8.71,
+      "Date": "2017-09-03T07:00:00.000Z",
+      "Description": "THE HOME DEPOT #6684",
+      "Type": "Sale"
+    },
+    {
+      "id": "bf959c39-a817-4d20-8ec4-cadad8683f2a",
+      "Amount": -13.82,
+      "Date": "2017-09-02T07:00:00.000Z",
+      "Description": "SUMO DOG",
+      "Type": "Sale"
+    },
+    {
+      "id": "e8437ba6-3719-48fe-a933-883d1547dd02",
+      "Amount": -5,
+      "Date": "2017-09-01T07:00:00.000Z",
+      "Description": "LA METRO WILSHIRE VERM",
+      "Type": "Sale"
+    },
+    {
+      "id": "41e08235-0616-4709-a83b-81d059e1914c",
+      "Amount": -32.76,
+      "Date": "2017-09-01T07:00:00.000Z",
+      "Description": "Amazon.com",
+      "Type": "Sale"
+    },
+    {
+      "id": "1ea8d3cd-bf3b-4e33-871e-2f0d892c4955",
+      "Amount": -30,
+      "Date": "2017-08-31T07:00:00.000Z",
+      "Description": "CURRY HOUSE MONTEREY PARK",
+      "Type": "Sale"
+    },
+    {
+      "id": "8c288a69-c959-4b41-b0bd-230bf916962a",
+      "Amount": -10.72,
+      "Date": "2017-08-31T07:00:00.000Z",
+      "Description": "AJI ICHIBAN MONTEREY PAR",
+      "Type": "Sale"
+    },
+    {
+      "id": "81fc551c-eae3-4050-a18c-7d91b4a0bb73",
+      "Amount": -11,
+      "Date": "2017-08-31T07:00:00.000Z",
+      "Description": "MY THAI",
+      "Type": "Sale"
+    },
+    {
+      "id": "25400bd6-8886-43d7-b4c5-475328dab758",
+      "Amount": -7.73,
+      "Date": "2017-08-30T07:00:00.000Z",
+      "Description": "7-ELEVEN 39625",
+      "Type": "Sale"
+    },
+    {
+      "id": "a9c89f97-5ea0-4bce-8e3e-5887c581a9e8",
+      "Amount": -7.6,
+      "Date": "2017-08-29T07:00:00.000Z",
+      "Description": "PIZZA REV 11",
+      "Type": "Sale"
+    },
+    {
+      "id": "61f212bf-25b7-4eb4-bd56-fd8ce6e2ba8a",
+      "Amount": -20.92,
+      "Date": "2017-08-29T07:00:00.000Z",
+      "Description": "BMCPHO EL MONTE",
+      "Type": "Sale"
+    },
+    {
+      "id": "4929a430-4c0e-4bc0-9190-f6a9d94542cb",
+      "Amount": 1399.69,
+      "Date": "2017-08-28T07:00:00.000Z",
+      "Description": "Payment Thank You - Web",
+      "Type": "Payment",
+      "category": "ccpayment"
+    },
+    {
+      "id": "dd5238ab-6eb9-4e6a-b6b9-da85d33b4c0d",
+      "Amount": -40.24,
+      "Date": "2017-08-28T07:00:00.000Z",
+      "Description": "CITY OF LA DWP",
+      "Type": "Sale"
+    },
+    {
+      "id": "28e79793-2e9a-4e91-aa62-6c9f86660d9b",
+      "Amount": -135.55,
+      "Date": "2017-08-27T07:00:00.000Z",
+      "Description": "SELECTBLINDS",
+      "Type": "Sale"
+    },
+    {
+      "id": "ad5889c8-4f31-4a5f-8a91-bca6b5b611b2",
+      "Amount": -8.19,
+      "Date": "2017-08-27T07:00:00.000Z",
+      "Description": "PANDA EXPRESS 2690",
+      "Type": "Sale"
+    },
+    {
+      "id": "f34f0938-3d3b-48b0-bf2b-8d22ae4eed76",
+      "Amount": -50,
+      "Date": "2017-08-26T07:00:00.000Z",
+      "Description": "SQ *LONG BEACH WATER BIKE",
+      "Type": "Sale"
+    },
+    {
+      "id": "c9a8a2e5-4a87-4f80-9019-0542ca8f9dca",
+      "Amount": -67.05,
+      "Date": "2017-08-26T07:00:00.000Z",
+      "Description": "LITTLE SHEEP MONGOLIAN",
+      "Type": "Sale"
+    },
+    {
+      "id": "6ad12c79-179c-4ce9-8d23-dcbb0ff7c4ed",
+      "Amount": -65.77,
+      "Date": "2017-08-26T07:00:00.000Z",
+      "Description": "BOTTLE ROOM  THE",
+      "Type": "Sale"
+    },
+    {
+      "id": "2b05e783-244a-4da0-a3d6-00a770704fbc",
+      "Amount": -8.28,
+      "Date": "2017-08-25T07:00:00.000Z",
+      "Description": "7-ELEVEN 39625",
+      "Type": "Sale"
+    },
+    {
+      "id": "e54836a6-31c4-4d42-a3c6-8762dcde87df",
+      "Amount": -14.99,
+      "Date": "2017-08-24T07:00:00.000Z",
+      "Description": "BLIZZARD ENT*ONL STORE",
+      "Type": "Sale"
+    },
+    {
+      "id": "4d4d38aa-20eb-481f-8caf-ba968ea67f44",
+      "Amount": -8.28,
+      "Date": "2017-08-22T07:00:00.000Z",
+      "Description": "7-ELEVEN 39625",
+      "Type": "Sale"
+    },
+    {
+      "id": "eaed3735-3592-4dc4-9f92-2eec7505fe82",
+      "Amount": -15,
+      "Date": "2017-08-21T07:00:00.000Z",
+      "Description": "LA LIVE PARKING GARAGE",
+      "Type": "Sale"
+    },
+    {
+      "id": "3461e2dc-dcdd-4792-9e3a-215ed201daee",
+      "Amount": -101.63,
+      "Date": "2017-08-21T07:00:00.000Z",
+      "Description": "AMAZON MKTPLACE PMTS",
+      "Type": "Sale"
+    },
+    {
+      "id": "1979eca5-b8ec-485f-934d-47356be6dca1",
+      "Amount": -11,
+      "Date": "2017-08-21T07:00:00.000Z",
+      "Description": "MY THAI",
+      "Type": "Sale"
+    },
+    {
+      "id": "6fd1a6ce-907e-4d43-bea0-3144056da300",
+      "Amount": -10.89,
+      "Date": "2017-08-20T07:00:00.000Z",
+      "Description": "MCDONALD'S F15660",
+      "Type": "Sale"
+    },
+    {
+      "id": "45734920-e945-4731-99f1-3289bfede0e6",
+      "Amount": -0.25,
+      "Date": "2017-08-19T07:00:00.000Z",
+      "Description": "LA CITY PARKING METER",
+      "Type": "Sale"
+    },
+    {
+      "id": "6c2074a4-85ef-4932-86fd-50fdb67f5571",
+      "Amount": -0.25,
+      "Date": "2017-08-19T07:00:00.000Z",
+      "Description": "LA CITY PARKING METER",
+      "Type": "Sale"
+    },
+    {
+      "id": "a502a73d-3d9c-4a9d-a8de-9ba5942113d3",
+      "Amount": -26.4,
+      "Date": "2017-08-19T07:00:00.000Z",
+      "Description": "UNCLE JOHNS CAFE",
+      "Type": "Sale"
+    },
+    {
+      "id": "7241c01f-3f7b-44b3-bb18-06cce1018283",
+      "Amount": -4,
+      "Date": "2017-08-19T07:00:00.000Z",
+      "Description": "LA CITY PARKING METER",
+      "Type": "Sale"
+    },
+    {
+      "id": "0d85fa0e-b187-4d68-8501-b30729f57acc",
+      "Amount": -0.25,
+      "Date": "2017-08-19T07:00:00.000Z",
+      "Description": "LA CITY PARKING METER",
+      "Type": "Sale"
+    },
+    {
+      "id": "0a12020e-4d46-43d9-baf2-d07f2f6966ac",
+      "Amount": -37.27,
+      "Date": "2017-08-18T07:00:00.000Z",
+      "Description": "MJ CAFE AND TEA HOUSE",
+      "Type": "Sale"
+    },
+    {
+      "id": "43429b30-9915-45e9-9051-6684a39f5981",
+      "Amount": -213.02,
+      "Date": "2017-08-18T07:00:00.000Z",
+      "Description": "IKEA COVINA LLC",
+      "Type": "Sale"
+    },
+    {
+      "id": "4e7be767-2bf1-4392-95d5-ba38f9a6d21b",
+      "Amount": -26.5,
+      "Date": "2017-08-18T07:00:00.000Z",
+      "Description": "PHO-OLOGY",
+      "Type": "Sale"
+    },
+    {
+      "id": "b4c0ff2f-17e1-4148-b06c-22884830a6a9",
+      "Amount": -22.28,
+      "Date": "2017-08-17T07:00:00.000Z",
+      "Description": "AMIGOS FLOWER SHOP",
+      "Type": "Sale"
+    },
+    {
+      "id": "0cd390f9-d639-48d2-8f62-2651744e0214",
+      "Amount": -10.99,
+      "Date": "2017-08-16T07:00:00.000Z",
+      "Description": "AMAZON MKTPLACE PMTS",
+      "Type": "Sale"
+    },
+    {
+      "id": "52b7737a-b78d-4cd4-a71e-c9c532172486",
+      "Amount": -17.66,
+      "Date": "2017-08-16T07:00:00.000Z",
+      "Description": "DDM DAKHANMARI",
+      "Type": "Sale"
+    },
+    {
+      "id": "0731739f-3b9f-4529-84d3-7941ddc8b21d",
+      "Amount": -8.28,
+      "Date": "2017-08-16T07:00:00.000Z",
+      "Description": "7-ELEVEN 39625",
+      "Type": "Sale"
+    },
+    {
+      "id": "1fcbf929-25fe-412c-9b2f-d07320acea71",
+      "Amount": -17.28,
+      "Date": "2017-08-15T07:00:00.000Z",
+      "Description": "RAKU TERIYAKI HOUSE",
+      "Type": "Sale"
+    },
+    {
+      "id": "43ea9984-aaa5-4bbc-b47c-423b828e0cf4",
+      "Amount": -6.56,
+      "Date": "2017-08-15T07:00:00.000Z",
+      "Description": "COSTCO WHSE #0569",
+      "Type": "Sale"
+    },
+    {
+      "id": "285f82ac-9f86-4ab6-979e-28d3c5a2f640",
+      "Amount": -26.78,
+      "Date": "2017-08-15T07:00:00.000Z",
+      "Description": "COSTCO WHSE #0569",
+      "Type": "Sale"
+    },
+    {
+      "id": "cc9db6a0-93da-4339-9614-7ec2b987c6a4",
+      "Amount": -17.23,
+      "Date": "2017-08-15T07:00:00.000Z",
+      "Description": "COSTCO GAS #0569",
+      "Type": "Sale"
+    },
+    {
+      "id": "9a681237-a84b-4fcf-abaf-1d9d21eefe42",
+      "Amount": -7.25,
+      "Date": "2017-08-13T07:00:00.000Z",
+      "Description": "85C BAKERY CAFE USA",
+      "Type": "Sale"
+    },
+    {
+      "id": "72d97e3d-70ac-4ebd-aacf-5e0475e6689a",
+      "Amount": -38.33,
+      "Date": "2017-08-13T07:00:00.000Z",
+      "Description": "COSTCO GAS #0679",
+      "Type": "Sale"
+    },
+    {
+      "id": "b5b6e3aa-4ea9-4e0c-980b-e13c2ec27ff8",
+      "Amount": -175.67,
+      "Date": "2017-08-13T07:00:00.000Z",
+      "Description": "COSTCO WHSE #0679",
+      "Type": "Sale"
+    },
+    {
+      "id": "a82667a3-2b99-4cc2-9876-5c8220fcad6d",
+      "Amount": 4486.5,
+      "Date": "2017-08-13T07:00:00.000Z",
+      "Description": "Payment Thank You-Mobile",
+      "Type": "Payment",
+      "category": "ccpayment"
+    },
+    {
+      "id": "5baa0547-d977-4dbb-9bf0-a9f6da675c2e",
+      "Amount": -15.03,
+      "Date": "2017-08-12T07:00:00.000Z",
+      "Description": "CHEVRON 0359801",
+      "Type": "Sale"
+    },
+    {
+      "id": "3324dc9c-71d2-49e0-977f-b60fbb3428a0",
+      "Amount": -35.63,
+      "Date": "2017-08-12T07:00:00.000Z",
+      "Description": "GETTY VILLA CA51164846",
+      "Type": "Sale"
+    },
+    {
+      "id": "5b75ae29-2368-467e-a428-51f4c29879a0",
+      "Amount": -383.15,
+      "Date": "2017-08-12T07:00:00.000Z",
+      "Description": "IKEA COVINA LLC",
+      "Type": "Sale"
+    },
+    {
+      "id": "de26b228-8665-4c56-9164-2c31e3c5c5b5",
+      "Amount": -31.2,
+      "Date": "2017-08-12T07:00:00.000Z",
+      "Description": "COCARY SHABU SHABU RES",
+      "Type": "Sale"
+    },
+    {
+      "id": "7f939b30-a4b3-4b24-af66-70da16116ae5",
+      "Amount": -8.28,
+      "Date": "2017-08-11T07:00:00.000Z",
+      "Description": "7-ELEVEN 39625",
+      "Type": "Sale"
+    },
+    {
+      "id": "52072a14-20db-43f7-a318-f97ecaeae10f",
+      "Amount": -14.05,
+      "Date": "2017-08-11T07:00:00.000Z",
+      "Description": "85C BAKERY CAFE USA",
+      "Type": "Sale"
+    },
+    {
+      "id": "310f0179-d43a-475f-845f-ef1e3def069f",
+      "Amount": -25.03,
+      "Date": "2017-08-11T07:00:00.000Z",
+      "Description": "CASSELL'S HAMBURGERS",
+      "Type": "Sale"
+    },
+    {
+      "id": "cd09e895-a531-48d3-8e77-662ace8d6581",
+      "Amount": -11,
+      "Date": "2017-08-10T07:00:00.000Z",
+      "Description": "MY THAI",
+      "Type": "Sale"
+    },
+    {
+      "id": "534c212c-238f-4e4b-9beb-a81f030642b0",
+      "Amount": -10.82,
+      "Date": "2017-08-09T07:00:00.000Z",
+      "Description": "SQ *UNO TEA HOUSE UPTOWN",
+      "Type": "Sale"
+    },
+    {
+      "id": "73182f44-3d33-4ddf-9be8-f28127564432",
+      "Amount": -18.19,
+      "Date": "2017-08-08T07:00:00.000Z",
+      "Description": "PANDA EXPRESS 1224",
+      "Type": "Sale"
+    },
+    {
+      "id": "48d9912b-b7c6-4cd0-a8b7-70a55868e5d4",
+      "Amount": -13.32,
+      "Date": "2017-08-07T07:00:00.000Z",
+      "Description": "COCO ICHIBANYA KOREAN TOW",
+      "Type": "Sale"
+    },
+    {
+      "id": "bb386b15-4263-4e75-be47-b9286f8755df",
+      "Amount": -2.99,
+      "Date": "2017-08-07T07:00:00.000Z",
+      "Description": "BASKIN #362088 Q35",
+      "Type": "Sale"
+    },
+    {
+      "id": "a7ee97ff-dce1-4612-9c08-f1eed75ae841",
+      "Amount": -8.28,
+      "Date": "2017-08-07T07:00:00.000Z",
+      "Description": "7-ELEVEN 39625",
+      "Type": "Sale"
+    },
+    {
+      "id": "a8fd07ce-6137-4884-88fd-8f3f72ebbe6a",
+      "Amount": -11.36,
+      "Date": "2017-08-07T07:00:00.000Z",
+      "Description": "TST* PIEOLOGY - WHITTIER",
+      "Type": "Sale"
+    },
+    {
+      "id": "f8d3b16a-74b4-480f-bc46-3ecb82cb390f",
+      "Amount": -14.75,
+      "Date": "2017-08-06T07:00:00.000Z",
+      "Description": "DAISO LA06 HACIENDA HGHT",
+      "Type": "Sale"
+    },
+    {
+      "id": "15604171-41d7-496a-8904-aa6691d50535",
+      "Amount": -23.79,
+      "Date": "2017-08-06T07:00:00.000Z",
+      "Description": "BED BATH &amp; BEYOND #494",
+      "Type": "Sale"
+    },
+    {
+      "id": "29ef8ff8-ddfb-46cf-9215-38837d38baa8",
+      "Amount": -44.94,
+      "Date": "2017-08-06T07:00:00.000Z",
+      "Description": "THE HOME DEPOT #6684",
+      "Type": "Sale"
+    },
+    {
+      "id": "0c3ae085-88d2-4c62-900f-b4530be98867",
+      "Amount": -41,
+      "Date": "2017-08-05T07:00:00.000Z",
+      "Description": "BOILING POINT SAN",
+      "Type": "Sale"
+    },
+    {
+      "id": "ac2eb318-d9c3-49c8-8f9e-f5b118ac5f81",
+      "Amount": -16.15,
+      "Date": "2017-08-04T07:00:00.000Z",
+      "Description": "GREAT KHANS",
+      "Type": "Sale"
+    },
+    {
+      "id": "180e08e3-92a3-4068-a656-ae4091d6758e",
+      "Amount": -39.99,
+      "Date": "2017-08-04T07:00:00.000Z",
+      "Description": "PLAYSTATION NETWORK",
+      "Type": "Sale"
+    },
+    {
+      "id": "f748d4dc-5fa2-43fd-a598-a4861638ea3e",
+      "Amount": -32.92,
+      "Date": "2017-08-04T07:00:00.000Z",
+      "Description": "COSTCO GAS #0569",
+      "Type": "Sale"
+    },
+    {
+      "id": "442f0a22-93da-49f5-a2ba-4a0d6b63b1cc",
+      "Amount": -29,
+      "Date": "2017-08-03T07:00:00.000Z",
+      "Description": "PHO-OLOGY",
+      "Type": "Sale"
+    }
+  ]
 }

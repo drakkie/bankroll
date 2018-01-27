@@ -1,3 +1,1389 @@
 {
-  "bank": []
+  "bank": [
+    {
+      "id": "dd68a9d9-36e9-4ee0-8bf6-94c2db4fe27f",
+      "Amount": -1505.48,
+      "Date": "2018-01-17T08:00:00.000Z",
+      "Description": "Foreign Currency Purchase 9080768\r"
+    },
+    {
+      "id": "9fda4d92-060e-489c-a606-dfb8c8226de2",
+      "Amount": 634.21,
+      "Date": "2018-01-16T08:00:00.000Z",
+      "Description": "MOBILE DEPOSIT : REF NUMBER :420160987740\r"
+    },
+    {
+      "id": "fe25196b-50f6-4e98-ac9d-18e95f1ac931",
+      "Amount": 2974.97,
+      "Date": "2018-01-12T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 74574400035295X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "50875499-0053-4459-8846-6048105acb9f",
+      "Amount": -1523.18,
+      "Date": "2018-01-09T08:00:00.000Z",
+      "Description": "CHASE CREDIT CRD EPAY 180108 3402344063 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "a12a2ac2-73b5-4eee-9c79-49dcc1ae84ee",
+      "Amount": -1200.67,
+      "Date": "2018-01-09T08:00:00.000Z",
+      "Description": "CHASE CREDIT CRD EPAY 180108 3402343948 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "123516de-b75b-46fc-b23c-243327bc2f8e",
+      "Amount": -3049.49,
+      "Date": "2018-01-02T08:00:00.000Z",
+      "Description": "WF HOME MTG AUTO PAY 010118 0545588436 STANLEY FUNG\r",
+      "category": "mortgage"
+    },
+    {
+      "id": "b45fc0d4-0b20-4cf1-910e-e9941970b8d9",
+      "Amount": -41.95,
+      "Date": "2018-01-02T08:00:00.000Z",
+      "Description": "SO CAL EDISON CO BILL PAYMT 171230 XXXXX1099 Stanley Fung\r",
+      "category": "utility"
+    },
+    {
+      "id": "3c23af9c-ed24-48b7-a0b7-a752b95cc4b0",
+      "Amount": -75,
+      "Date": "2018-01-02T08:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OP044JQFZZ XXXXXX7543\r"
+    },
+    {
+      "id": "0dcc39bb-26c4-4039-9354-6abb88d79f02",
+      "Amount": 3016.21,
+      "Date": "2017-12-29T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 74391300024778X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "fbd9698e-4c77-4e39-8692-e619c536fc03",
+      "Amount": 3357.12,
+      "Date": "2017-12-15T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 74184400018097X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "670f5314-e401-45b1-bea5-9a57598d1461",
+      "Amount": -80,
+      "Date": "2017-12-08T08:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 12/08 15056 ROSECRANS AVE. LA MIRADA CA 0009668 ATM ID 0782B CARD 2778\r"
+    },
+    {
+      "id": "27fd2f35-ac7e-4cfb-95ad-d273d10006e3",
+      "Amount": -1139.21,
+      "Date": "2017-12-06T08:00:00.000Z",
+      "Description": "BMWFINANCIAL SVS BMWFS PYMT 171205 XXXXX6063 Stanley Fung4002067783\r",
+      "category": "car"
+    },
+    {
+      "id": "ea76448d-61b0-4dde-88c0-65d786c9d806",
+      "Amount": -2893.85,
+      "Date": "2017-12-04T08:00:00.000Z",
+      "Description": "CHASE CREDIT CRD EPAY 171201 3349549202 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "ee7a07ef-00a4-4e16-912b-be029d0061cb",
+      "Amount": -80,
+      "Date": "2017-12-04T08:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 12/03 17799 E COLIMA CITY INDUSTRY CA 0005317 ATM ID 0755A CARD 2778\r"
+    },
+    {
+      "id": "1a34d078-6bd1-438a-a648-eb161386545f",
+      "Amount": -82,
+      "Date": "2017-12-04T08:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 12/03 VENMO 855-812-4430 NY S587337129725821 CARD 2778\r"
+    },
+    {
+      "id": "a738d431-bbf9-41fc-98aa-7dd330f62a9a",
+      "Amount": -3049.49,
+      "Date": "2017-12-01T08:00:00.000Z",
+      "Description": "WF HOME MTG AUTO PAY 120117 0545588436 STANLEY FUNG\r",
+      "category": "mortgage"
+    },
+    {
+      "id": "d2a0c734-4395-495c-8838-18d4f1fe9d17",
+      "Amount": -75,
+      "Date": "2017-12-01T08:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OP03ZN4LMS XXXXXX7543\r"
+    },
+    {
+      "id": "f50903ba-65e7-457a-a425-1733a0e3c15f",
+      "Amount": 2976.1,
+      "Date": "2017-11-30T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 73972500004400X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "d7dcfd64-daa2-4892-ba06-f313b91215d9",
+      "Amount": -100,
+      "Date": "2017-11-24T08:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 11/23 400 S BALDWIN AVENUE SANTA ANITA CA 0008621 ATM ID 9949W CARD 2778\r"
+    },
+    {
+      "id": "126259ca-4152-403f-a064-220f313fb776",
+      "Amount": -44.56,
+      "Date": "2017-11-20T08:00:00.000Z",
+      "Description": "SO CAL EDISON CO BILL PAYMT 171118 XXXXX1099 Stanley Fung\r",
+      "category": "utility"
+    },
+    {
+      "id": "b2c10327-6112-4add-808f-0304dcb626e9",
+      "Amount": 2976.1,
+      "Date": "2017-11-15T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 73756300004695X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "0c31ffbd-03ee-477f-ba32-c19de3f5f1e9",
+      "Amount": -232.95,
+      "Date": "2017-11-07T08:00:00.000Z",
+      "Description": "Vintage Real Est RESIDENT 87065458 Stanley Fung\r",
+      "category": "utility"
+    },
+    {
+      "id": "81e67f60-df9c-4e48-9930-64b0ec35b7e7",
+      "Amount": -47.96,
+      "Date": "2017-11-06T08:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 11/05 ARCO #42762 AMPM HACIENDA HEIG CA P00587309644834057 CARD 2778\r"
+    },
+    {
+      "id": "d6e6db06-0cfe-4888-a4f2-1e91b5aa9faa",
+      "Amount": -81.04,
+      "Date": "2017-11-02T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/31 LYFT *RIDE WED 3 LYFT.COM CA S467305172145135 CARD 2778\r"
+    },
+    {
+      "id": "96edef27-e786-42e6-b2ee-a373315d6ffe",
+      "Amount": -3049.49,
+      "Date": "2017-11-01T07:00:00.000Z",
+      "Description": "WF HOME MTG AUTO PAY 110117 0545588436 STANLEY FUNG\r",
+      "category": "mortgage"
+    },
+    {
+      "id": "2d480a10-1846-4448-860e-b979b93a0fa8",
+      "Amount": -75,
+      "Date": "2017-11-01T07:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OP03WRHVLZ XXXXXX7543\r"
+    },
+    {
+      "id": "a533145c-3404-4975-9c98-272ef630a13c",
+      "Amount": 3024.61,
+      "Date": "2017-10-31T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 73553300036332X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "2625f475-866c-4782-b701-03233bb1d647",
+      "Amount": -39.05,
+      "Date": "2017-10-30T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/29 ARCO #42326 WHITTIER CA P00467302789914903 CARD 2778\r"
+    },
+    {
+      "id": "c6649147-a149-4e61-98c1-35eaa9c0a3ab",
+      "Amount": -57.68,
+      "Date": "2017-10-30T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/29 COSTCO WHSE #0679 CITY OF INDUS CA P00467302648425505 CARD 2778\r"
+    },
+    {
+      "id": "fcbe8c82-f15d-4c61-8e04-f189f65f5a85",
+      "Amount": -9,
+      "Date": "2017-10-30T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/28 SQ *ZERO DEGREES CITY OF INDUS CA S467302132370567 CARD 2778\r"
+    },
+    {
+      "id": "ef01d9ae-89cf-4893-b0f8-1b9e8148c0b2",
+      "Amount": -30,
+      "Date": "2017-10-30T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/28 DIN TAI FUNG ARCAD ARCADIA CA S467301756050361 CARD 2778\r"
+    },
+    {
+      "id": "ebfc69e8-c86b-4d74-91eb-36d896b5b670",
+      "Amount": -6,
+      "Date": "2017-10-30T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/28 85C BAKERY CAFE US HACIENDA HTS CA S587301597045549 CARD 2778\r"
+    },
+    {
+      "id": "9f0fd266-9c8e-46d0-a309-56bfd26888d5",
+      "Amount": -46.03,
+      "Date": "2017-10-30T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/27 TOKYO HAMBURG LOS ANGELES CA S387301129821993 CARD 2778\r"
+    },
+    {
+      "id": "b8607e08-2382-41c0-9d18-0815f82650b8",
+      "Amount": -13.31,
+      "Date": "2017-10-27T07:00:00.000Z",
+      "Description": "SO CAL EDISON CO BILL PAYMT 171026 XXXXX1099 Stanley Fung\r",
+      "category": "utility"
+    },
+    {
+      "id": "0c15b4a7-9561-4191-9309-bbe06e03302a",
+      "Amount": -12.88,
+      "Date": "2017-10-27T07:00:00.000Z",
+      "Description": "SO CAL GAS PAID SCGC 171026 1698353991 301601474090047681\r"
+    },
+    {
+      "id": "9b479253-80e8-468a-b890-9fdfda657bbc",
+      "Amount": -5.78,
+      "Date": "2017-10-27T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/26 GW SUPERMARKET ROSEMEAD CA P00000000085683635 CARD 2778\r"
+    },
+    {
+      "id": "ffa62f09-2c25-4515-9c2c-f2de4a8fe215",
+      "Amount": -31.05,
+      "Date": "2017-10-27T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/25 CURRY HOUSE MONTER MONTEREY PARK CA S387299092768841 CARD 2778\r"
+    },
+    {
+      "id": "d98a3c6c-7a42-4db3-9446-c0612bcd3df5",
+      "Amount": -8,
+      "Date": "2017-10-27T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/26 SWA INFLIGHT WIFI 800-435-9792 CA S467298671688211 CARD 2778\r"
+    },
+    {
+      "id": "b12cfa22-2223-41ae-b8bc-83cce185c430",
+      "Amount": -9.98,
+      "Date": "2017-10-27T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/25 GOLD COAST DOGS TR CHICAGO IL S587298583686936 CARD 2778\r"
+    },
+    {
+      "id": "cd10836b-7204-4174-b8e5-360fe9583d96",
+      "Amount": -80,
+      "Date": "2017-10-26T07:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 10/26 804 BEVERLY BLVD MONTEBELLO CA 0006424 ATM ID 2029S CARD 2778\r"
+    },
+    {
+      "id": "28dba4ee-5900-44ae-8d5b-cf0c1e1bf77a",
+      "Amount": -28.58,
+      "Date": "2017-10-26T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/25 UBER TECHNOLOGIES 866-576-1039 CA S467298544503362 CARD 2778\r"
+    },
+    {
+      "id": "007cb111-b5ba-468f-a389-dfc2b65a3042",
+      "Amount": -30.59,
+      "Date": "2017-10-26T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/24 SEVEN LIONS CHICAGO IL S467297741149607 CARD 2778\r"
+    },
+    {
+      "id": "0442511d-2d53-4856-8597-629db6878398",
+      "Amount": -25,
+      "Date": "2017-10-26T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/24 ART INSTITUTE-ADMI CHICAGO IL S307297661728299 CARD 2778\r"
+    },
+    {
+      "id": "fa077860-c0c4-4061-8bde-d3c6309116d0",
+      "Amount": -16.41,
+      "Date": "2017-10-25T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/25 SOUTH LOOP CLUB CHICAGO IL S387298184828406 CARD 2778\r"
+    },
+    {
+      "id": "03a87b8a-5ddd-43e2-a571-1b17e2ce24a8",
+      "Amount": -34.49,
+      "Date": "2017-10-25T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/24 GARRETT POPCORN SH CHICAGO IL S387297750529491 CARD 2778\r"
+    },
+    {
+      "id": "6f9103b1-e103-4f61-9254-418b8ec61435",
+      "Amount": -8.03,
+      "Date": "2017-10-25T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/23 STARBUCKS CHICAGO IL S307296728149311 CARD 2778\r"
+    },
+    {
+      "id": "479b8617-c418-4a52-9b0c-8ffd569f4752",
+      "Amount": -4294.45,
+      "Date": "2017-10-24T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD EPAY 171023 3298808708 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "5fac5951-09a4-485d-bf1c-60dea03ee282",
+      "Amount": -224.54,
+      "Date": "2017-10-24T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD EPAY 171023 3298808399 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "f1c05de2-6f16-4eff-a873-d444f3578fe0",
+      "Amount": -7.8,
+      "Date": "2017-10-24T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/23 WALGREENS STORE 2 N STATE CHICAGO IL P00387297037083895 CARD 2778\r"
+    },
+    {
+      "id": "13693c77-94a3-46a9-acf9-4363267f6362",
+      "Amount": -35.41,
+      "Date": "2017-10-24T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/24 OPART THAI HOUSE CHICAGO IL S387297014083895 CARD 2778\r"
+    },
+    {
+      "id": "ec52067c-18ce-4f41-b191-af0bddd98d9f",
+      "Amount": -2.5,
+      "Date": "2017-10-23T07:00:00.000Z",
+      "Description": "NON-WELLS FARGO ATM TRANSACTION FEE\r"
+    },
+    {
+      "id": "08c40b37-35eb-455f-9d07-531b2f8a7a11",
+      "Amount": -203.25,
+      "Date": "2017-10-23T07:00:00.000Z",
+      "Description": "NON-WF ATM WITHDRAWAL AUTHORIZED ON 10/23 727 S. MICHIGAN AV CHICAGO IL 00307296840633511 ATM ID XF9260 CARD 2778\r"
+    },
+    {
+      "id": "cccabc72-edab-44da-8b47-69b88a92803b",
+      "Amount": -8.09,
+      "Date": "2017-10-17T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/15 85C BAKERY CAFE US HACIENDA HTS CA S587288627203816 CARD 2778\r"
+    },
+    {
+      "id": "845cbf54-fcc1-4edb-b583-1ed3b52a12bd",
+      "Amount": 2976.11,
+      "Date": "2017-10-13T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 73296500043600X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "b59a98b1-5352-4e00-b9c2-a7cbc87f7135",
+      "Amount": -12.18,
+      "Date": "2017-10-11T07:00:00.000Z",
+      "Description": "SO CAL GAS PAID SCGC 171009 1698353991 301601474089126927\r"
+    },
+    {
+      "id": "cdd401be-f418-464b-9089-24862a3e8e42",
+      "Amount": -232.95,
+      "Date": "2017-10-04T07:00:00.000Z",
+      "Description": "Vintage Real Est RESIDENT 84497965 Stanley Fung\r",
+      "category": "utility"
+    },
+    {
+      "id": "2ec068fa-2c7f-439d-b5b7-88ea7289bc91",
+      "Amount": -1112.5,
+      "Date": "2017-10-04T07:00:00.000Z",
+      "Description": "BMWFINANCIAL SVS BMWFS PYMT 171003 XXXXX8724 Stanley Fung4002067783\r",
+      "category": "car"
+    },
+    {
+      "id": "98235445-5060-494e-a30e-1db3f0dd1a9c",
+      "Amount": -3049.49,
+      "Date": "2017-10-02T07:00:00.000Z",
+      "Description": "WF HOME MTG AUTO PAY 100117 0545588436 STANLEY FUNG\r",
+      "category": "mortgage"
+    },
+    {
+      "id": "a411fc93-2e7c-489b-9158-dff9ab4820a8",
+      "Amount": -685.13,
+      "Date": "2017-10-02T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD AUTOPAY 171001 000000000118938 FUNG STANLEY\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "e703144c-f070-447e-aa7b-9fe6028d6068",
+      "Amount": -97.32,
+      "Date": "2017-10-02T07:00:00.000Z",
+      "Description": "PURCHASE WITH CASH BACK $ 20.00 AUTHORIZED ON 10/01 COSTCO WHSE #0679 CITY OF INDUS CA P00467274623336662 CARD 2778\r"
+    },
+    {
+      "id": "ebb5ea14-4c7e-4800-95e3-13977f46c3d5",
+      "Amount": -20.51,
+      "Date": "2017-10-02T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 10/01 COSTCO GAS #0679 CITY OF INDUS CA P00467274604863515 CARD 2778\r"
+    },
+    {
+      "id": "ffa6e27d-ddcd-4635-a9e8-d7cd8197702f",
+      "Amount": -75,
+      "Date": "2017-10-02T07:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OP03SWMRTZ XXXXXX7543\r"
+    },
+    {
+      "id": "36e1497d-781e-42cb-8b7d-812ff2d3485b",
+      "Amount": -41.44,
+      "Date": "2017-09-29T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 09/28 ARCO #42005 AMPM WHITTIER CA P00307272096942393 CARD 2778\r"
+    },
+    {
+      "id": "69262d9f-593e-400a-b315-713c332ba6eb",
+      "Amount": 2976.1,
+      "Date": "2017-09-29T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 73110600044283X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "bf52af75-7536-4c4c-bf86-c1bf16e0f8be",
+      "Amount": -42.79,
+      "Date": "2017-09-25T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 09/23 ARCO #42005 AMPM WHITTIER CA P00467266668263176 CARD 2778\r"
+    },
+    {
+      "id": "ca3da6ba-8db1-4def-a37d-607e63cc1c21",
+      "Amount": -41.26,
+      "Date": "2017-09-18T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 09/16 ARCO #42005 AMPM WHITTIER CA P00307259643106093 CARD 2778\r"
+    },
+    {
+      "id": "0e569a0a-02f0-423c-906d-e0fe39a2ecc8",
+      "Amount": 2976.1,
+      "Date": "2017-09-15T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 72913200044509X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "05b9df55-e068-4d8b-a01b-8447091b5d90",
+      "Amount": -475.35,
+      "Date": "2017-09-12T07:00:00.000Z",
+      "Description": "Vintage Real Est RESIDENT 83264367 Stanley Fung\r",
+      "category": "utility"
+    },
+    {
+      "id": "2f6eb4f0-9546-4c84-b18a-e1c1da7a214f",
+      "Amount": -180.49,
+      "Date": "2017-09-12T07:00:00.000Z",
+      "Description": "City of Whittier WEB PAY 170911 0720879-00 Stanley Fung\r"
+    },
+    {
+      "id": "6df01944-95ac-475a-a6d1-6903a1b1dab7",
+      "Amount": -673.25,
+      "Date": "2017-09-11T07:00:00.000Z",
+      "Description": "GEICO GEICO PYMT 170912 UACCMHDY2HFOEIE STANLEY W FUNG\r"
+    },
+    {
+      "id": "52b21a6f-ef51-41b0-a274-0e0dd17012b2",
+      "Amount": -147.29,
+      "Date": "2017-09-11T07:00:00.000Z",
+      "Description": "SO CAL EDISON CO BILL PAYMT 170910 XXXXX1099 Stanley Fung\r",
+      "category": "utility"
+    },
+    {
+      "id": "67260ecd-b3b5-4eb2-8b1c-13b5ffbc2f18",
+      "Amount": -3049.49,
+      "Date": "2017-09-01T07:00:00.000Z",
+      "Description": "WF HOME MTG AUTO PAY 090117 0545588436 STANLEY FUNG\r",
+      "category": "mortgage"
+    },
+    {
+      "id": "bb0b583a-449b-4b89-a0a7-567afffd1588",
+      "Amount": -75,
+      "Date": "2017-09-01T07:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OP03Q7DZ7R XXXXXX7543\r"
+    },
+    {
+      "id": "aa2fb00e-5889-4f90-9e99-73dce1c1ca58",
+      "Amount": -44.87,
+      "Date": "2017-08-31T07:00:00.000Z",
+      "Description": "SO CAL GAS PAID SCGC 170830 1698353991 301601474087015640\r"
+    },
+    {
+      "id": "5255a119-d914-4b33-a028-8ce3c038cf3a",
+      "Amount": -3049.49,
+      "Date": "2017-08-30T07:00:00.000Z",
+      "Description": "ONLINE TRANSFER REF #IBE2YMVCGV TO MORTGAGE XXXXXX8436 ON 08/29/17\r"
+    },
+    {
+      "id": "b42c2dd6-3c89-45bd-a256-aad3b7bc16c1",
+      "Amount": 2976.1,
+      "Date": "2017-08-30T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 72696000000055X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "02905629-9f03-4a8e-9137-5d6cf6fee6e9",
+      "Amount": -1399.69,
+      "Date": "2017-08-29T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD EPAY 170828 3222006000 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "1bf76b63-e319-4e12-95f9-a4566bc301bf",
+      "Amount": -224.54,
+      "Date": "2017-08-29T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD EPAY 170828 3222006078 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "2d38d67a-1ed0-4d1d-af45-911d54e40642",
+      "Amount": 2017,
+      "Date": "2017-08-29T07:00:00.000Z",
+      "Description": "MOBILE DEPOSIT : REF NUMBER :317290649793\r"
+    },
+    {
+      "id": "0f2eb24c-349d-4b8d-8232-473d9868db16",
+      "Amount": -555.62,
+      "Date": "2017-08-28T07:00:00.000Z",
+      "Description": "BMWFINANCIAL SVS BMWFS PYMT 170825 XXXXX2283 Stanley Fung4002067783\r",
+      "category": "car"
+    },
+    {
+      "id": "f01be314-cc1e-4ddd-8838-86938fdbe468",
+      "Amount": -37.96,
+      "Date": "2017-08-28T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 08/27 ARCO #42326 WHITTIER CA P00307240082299449 CARD 2778\r"
+    },
+    {
+      "id": "c3d81fea-d4a1-40f0-b3a2-2fe3a0f67a0f",
+      "Amount": -80,
+      "Date": "2017-08-23T07:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 08/23 3150 WILSHIRE BLVD. LOS ANGELES CA 0008748 ATM ID 0763G CARD 2778\r"
+    },
+    {
+      "id": "e93ace1d-3b6f-4393-aba4-3e8a3d0ed20e",
+      "Amount": -39.26,
+      "Date": "2017-08-22T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 08/21 ARCO #42326 WHITTIER CA P00467234109711733 CARD 2778\r"
+    },
+    {
+      "id": "8e938467-d30a-4c7f-ab03-fadabb3e4fd2",
+      "Amount": 2976.11,
+      "Date": "2017-08-15T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 72495200010623X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "2e7b90a8-c10e-40ab-92c7-86ed9823bbb4",
+      "Amount": -4486.5,
+      "Date": "2017-08-14T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD EPAY 170813 3203322912 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "eb0c584e-db92-4808-a361-e0e651e90625",
+      "Amount": -12.57,
+      "Date": "2017-08-11T07:00:00.000Z",
+      "Description": "SO CAL GAS PAID SCGC 170810 1342674901 301601474085725712\r"
+    },
+    {
+      "id": "2465354f-8b14-4d76-9a99-858fca7e106f",
+      "Amount": -11.58,
+      "Date": "2017-08-11T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 08/10 ARCO #42762 AMPM HACIENDA HEIG CA P00587223149591734 CARD 2778\r"
+    },
+    {
+      "id": "35cd7be8-6de1-4c85-818b-5b511f9f452f",
+      "Amount": -83.15,
+      "Date": "2017-08-02T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD AUTOPAY 170801 000000000113472 FUNG STANLEY\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "6abf21c5-f6d2-4f0c-a74b-7e16e72a9567",
+      "Amount": -75,
+      "Date": "2017-08-01T07:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OP03MN9G34 XXXXXX7543\r"
+    },
+    {
+      "id": "7cf78151-655d-4604-9aa1-3bffaef4ac00",
+      "Amount": 2976.1,
+      "Date": "2017-07-31T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 72275400006429X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "9a0e79c0-4275-4786-9527-7ae8a1f39d82",
+      "Amount": -3049.49,
+      "Date": "2017-07-26T07:00:00.000Z",
+      "Description": "BILL PAY DHI MORTGAGE COM ON-LINE xx81976 ON 07-26\r"
+    },
+    {
+      "id": "ac8d8ea0-7d42-4829-beae-0e7469e40c03",
+      "Amount": -553.08,
+      "Date": "2017-07-25T07:00:00.000Z",
+      "Description": "BMWFINANCIAL SVS BMWFS PYMT 170724 XXXXX9496 Stanley Fung4002067783\r",
+      "category": "car"
+    },
+    {
+      "id": "ec1d967f-3d85-4af6-affe-c20ae94520ba",
+      "Amount": -17.5,
+      "Date": "2017-07-14T07:00:00.000Z",
+      "Description": "SO CAL GAS PAID SCGC 170713 1342674901 301601474084278788\r"
+    },
+    {
+      "id": "4728e904-3c3f-42cd-82d0-044a38d818cb",
+      "Amount": -300,
+      "Date": "2017-07-14T07:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 07/14 333 SOUTH SPRING LOS ANGELES CA 0009029 ATM ID 0908A CARD 2778\r"
+    },
+    {
+      "id": "f476fc1f-ed9a-4f99-9c2e-0b3bfd9b3206",
+      "Amount": 2976.1,
+      "Date": "2017-07-14T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 72088700009219X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "8fc6d90f-4a17-4671-8873-a90fb016fed7",
+      "Amount": -125,
+      "Date": "2017-07-10T07:00:00.000Z",
+      "Description": "SO CAL EDISON CO BILL PAYMT 170708 XXXXX1081 Stanley Fung\r",
+      "category": "utility"
+    },
+    {
+      "id": "7a987337-42f4-455e-89fd-a2277a144ebb",
+      "Amount": -15,
+      "Date": "2017-07-06T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 07/05 VENMO 855-812-4430 NY S467185711467598 CARD 2778\r"
+    },
+    {
+      "id": "ad0cbfe3-029c-4513-ae75-87b2b174613f",
+      "Amount": -6180.82,
+      "Date": "2017-07-05T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD EPAY 170704 3149564514 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "b821744f-aa00-4632-8b42-323f1193b08a",
+      "Amount": -27,
+      "Date": "2017-07-05T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 07/04 MONJA ROSEMEAD CA S387185723155735 CARD 2778\r"
+    },
+    {
+      "id": "d61c0555-e40e-4e26-8406-25bfc65d8f82",
+      "Amount": -20,
+      "Date": "2017-07-03T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 07/02 VENMO 855-812-4430 NY S307182683962269 CARD 2778\r"
+    },
+    {
+      "id": "b5cb1841-eb89-4a44-95ff-b1e19df89c4c",
+      "Amount": -300,
+      "Date": "2017-07-03T07:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 07/01 333 SOUTH SPRING LOS ANGELES CA 0008632 ATM ID 0908B CARD 2778\r"
+    },
+    {
+      "id": "f4d412eb-7d18-4d12-ad9f-3c93eac2924e",
+      "Amount": -75,
+      "Date": "2017-07-03T07:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OP03K6ZSYB XXXXXX7543\r"
+    },
+    {
+      "id": "a871fb4e-6ee9-42c0-a3a0-550a32f5371f",
+      "Amount": 2976.1,
+      "Date": "2017-06-30T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 71927300034177X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "166099f8-6dba-431e-9c19-2b709ec94b69",
+      "Amount": -536.77,
+      "Date": "2017-06-29T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD EPAY 170628 3140768742 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "e7449e68-4446-46be-a6f4-340107a96859",
+      "Amount": -221.48,
+      "Date": "2017-06-29T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD EPAY 170628 3140768577 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "0b841d20-e500-460f-8460-4fc2370c89ee",
+      "Amount": -555.62,
+      "Date": "2017-06-27T07:00:00.000Z",
+      "Description": "BMWFINANCIAL SVS BMWFS PYMT 170626 XXXXX9016 Stanley Fung4002067783\r",
+      "category": "car"
+    },
+    {
+      "id": "15fe7e11-452d-4cbf-9e88-85a758d59084",
+      "Amount": -43.08,
+      "Date": "2017-06-26T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 06/24 ARCO #42030 LOS ANGELES CA P00587176175425217 CARD 2778\r"
+    },
+    {
+      "id": "02a4fe29-b720-481f-bf1e-1b022213047d",
+      "Amount": -20250,
+      "Date": "2017-06-23T07:00:00.000Z",
+      "Description": "\"WT FED#05023 MUFG UNION BANK"
+    },
+    {
+      "id": "cff073f6-2d96-4196-aae9-342470872872",
+      "Amount": -30,
+      "Date": "2017-06-23T07:00:00.000Z",
+      "Description": "WIRE TRANS SVC CHARGE - SEQUENCE: 170623134937 SRF# 0012715174256253 TRN#170623134937 RFB#\r"
+    },
+    {
+      "id": "826d45e0-2916-4fbe-a787-211436cbbe32",
+      "Amount": 2976.11,
+      "Date": "2017-06-15T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 71705400035408X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "3e30ba69-e099-44d9-abfe-4f59ca937772",
+      "Amount": -12.8,
+      "Date": "2017-06-13T07:00:00.000Z",
+      "Description": "SO CAL GAS PAID SCGC 170612 1342674901 301601474082692230\r"
+    },
+    {
+      "id": "9e6dee36-5a96-4c4d-a49d-71389d95f03f",
+      "Amount": -2401.1,
+      "Date": "2017-06-05T07:00:00.000Z",
+      "Description": "\"CA087-AVA Little WEB PMTS 060517 QZNM37 Dip"
+    },
+    {
+      "id": "5ec1d13a-eb51-472e-8400-adec71517067",
+      "Amount": -110.64,
+      "Date": "2017-06-05T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD AUTOPAY 170602 000000000160775 FUNG STANLEY\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "4c44bad3-2f2a-4f54-99af-576ad7629ab8",
+      "Amount": -75,
+      "Date": "2017-06-01T07:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OP03GQDN4M XXXXXX7543\r"
+    },
+    {
+      "id": "f641dccc-333c-4cb7-b2e6-5d06ea559527",
+      "Amount": 2976.1,
+      "Date": "2017-05-31T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 71494700005820X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "9133a078-e2b1-403d-93ae-b5b3b649bcbd",
+      "Amount": -40,
+      "Date": "2017-05-30T07:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 05/29 333 SOUTH SPRING LOS ANGELES CA 0009421 ATM ID 0908B CARD 2778\r"
+    },
+    {
+      "id": "e98a93ed-be07-461f-84e3-e67b6acad073",
+      "Amount": -10,
+      "Date": "2017-05-30T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 05/27 VENMO 855-812-4430 NY S467146718762592 CARD 2778\r"
+    },
+    {
+      "id": "4cf1f2d5-0a70-426e-81ad-b069251572a1",
+      "Amount": -5000,
+      "Date": "2017-05-26T07:00:00.000Z",
+      "Description": "CHECK # 99\r"
+    },
+    {
+      "id": "e4e5b405-24d0-4013-bafb-95cde927d7b8",
+      "Amount": -15,
+      "Date": "2017-05-26T07:00:00.000Z",
+      "Description": "WIRE TRANS SVC CHARGE - SEQUENCE: 170526099207 SRF# 170526023523 TRN#170526099207 RFB# 170526023523\r"
+    },
+    {
+      "id": "4b7600d4-342d-45dc-b30a-c91b893ef0a5",
+      "Amount": 20343.96,
+      "Date": "2017-05-26T07:00:00.000Z",
+      "Description": "WT FED#02316 SCOTTRADE INC /ORG=STANLEY FUNG SRF# 170526023523 TRN#170526099207 RFB# 170526023523\r"
+    },
+    {
+      "id": "b47c8868-979a-40e1-a9c6-debd83bf8d48",
+      "Amount": -3634.68,
+      "Date": "2017-05-23T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD EPAY MOBIL 170522 3092912246 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "9a2a1d55-8bf1-4580-b2fe-e1d3cd64caf8",
+      "Amount": -1131.59,
+      "Date": "2017-05-23T07:00:00.000Z",
+      "Description": "BMWFINANCIAL SVS BMWFS PYMT 170521 XXXXX4570 Stanley Fung4002067783\r",
+      "category": "car"
+    },
+    {
+      "id": "4b15c55a-7ad2-4fda-b4d0-231ccbc382f9",
+      "Amount": 10000,
+      "Date": "2017-05-22T07:00:00.000Z",
+      "Description": "ATM CHECK DEPOSIT ON 05/22 3150 WILSHIRE BLVD. LOS ANGELES CA 0009354 ATM ID 0763G CARD 2778\r"
+    },
+    {
+      "id": "69e47c3f-d644-444d-ac53-43ed4c9c42e1",
+      "Amount": -24.39,
+      "Date": "2017-05-16T07:00:00.000Z",
+      "Description": "SO CAL GAS PAID SCGC 170515 1342674901 301601474081256603\r"
+    },
+    {
+      "id": "e36c81f1-d5c9-466f-a9d3-9ecde2ade731",
+      "Amount": 2976.1,
+      "Date": "2017-05-15T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 71286000002846X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "3bc96dd3-7aa9-41d8-b7fe-8265d557b8e0",
+      "Amount": -110.64,
+      "Date": "2017-05-04T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD AUTOPAY 170503 000000000077239 FUNG STANLEY\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "616219e7-bfa0-41c2-9a88-df952adc5457",
+      "Amount": -2398.37,
+      "Date": "2017-05-03T07:00:00.000Z",
+      "Description": "\"CA087-AVA Little WEB PMTS 050317 MGK0W6 Dip"
+    },
+    {
+      "id": "55a734c1-ed51-4628-b616-f8a93757912a",
+      "Amount": -176.14,
+      "Date": "2017-05-02T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD AUTOPAY 170501 000000000109940 FUNG STANLEY\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "342bb476-fccd-4e71-bdde-dc55dd1b4f19",
+      "Amount": -75,
+      "Date": "2017-05-01T07:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OP03D8W5G3 XXXXXX7543\r"
+    },
+    {
+      "id": "1314f85b-7755-494a-b6bd-842b54039cd3",
+      "Amount": 2976.09,
+      "Date": "2017-04-28T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 71075900037385X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "54df9f46-7c7f-4ac9-83e5-2037e7ab2fa1",
+      "Amount": -27.27,
+      "Date": "2017-04-18T07:00:00.000Z",
+      "Description": "SO CAL GAS PAID SCGC 170417 1342674901 301601474079820450\r"
+    },
+    {
+      "id": "4ea6eb8e-4b03-4f5e-8364-fe537d15fa7a",
+      "Amount": -80,
+      "Date": "2017-04-17T07:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 04/16 333 SOUTH SPRING LOS ANGELES CA 0003420 ATM ID 0908A CARD 2778\r"
+    },
+    {
+      "id": "9dc1fb7f-8932-4fa0-9823-1302c5ec44d4",
+      "Amount": 2976.11,
+      "Date": "2017-04-14T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 70889300035238X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "0cbe6b9c-8223-4afa-b5de-3b08c3a50c03",
+      "Amount": -2815.25,
+      "Date": "2017-04-03T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD EPAY 170401 3025266142 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "69efb76d-cb47-4745-9760-180a3de85160",
+      "Amount": -2402.47,
+      "Date": "2017-04-03T07:00:00.000Z",
+      "Description": "\"CA087-AVA Little WEB PMTS 040317 L0MBM6 Dip"
+    },
+    {
+      "id": "14400176-cd59-4dae-b688-e9ddbb950fce",
+      "Amount": -572.83,
+      "Date": "2017-04-03T07:00:00.000Z",
+      "Description": "CHASE CREDIT CRD AUTOPAY 170331 000000000109491 FUNG STANLEY\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "7074feaa-dbac-4d57-878e-4dea675fa0f9",
+      "Amount": -80,
+      "Date": "2017-04-03T07:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 04/02 726 E. VALLEY BLVD. ALHAMBRA CA 0000922 ATM ID 9883A CARD 2778\r"
+    },
+    {
+      "id": "096ff2eb-3109-420f-9aa1-5398fa630370",
+      "Amount": -75,
+      "Date": "2017-04-03T07:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OP039WZNWN XXXXXX7543\r"
+    },
+    {
+      "id": "4d637460-2831-4fe7-82e4-d5240edac744",
+      "Amount": 7.07,
+      "Date": "2017-04-03T07:00:00.000Z",
+      "Description": "MOBILE DEPOSIT : REF NUMBER :712010460945\r"
+    },
+    {
+      "id": "d88a284f-c465-45ff-941c-7676f5d0a93e",
+      "Amount": 2976.1,
+      "Date": "2017-03-31T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 70697500004921X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "47581c51-7a81-4ad2-a3d6-fb1ab8db1653",
+      "Amount": -40,
+      "Date": "2017-03-27T07:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 03/26 726 E. VALLEY BLVD. ALHAMBRA CA 0008820 ATM ID 9883A CARD 2778\r"
+    },
+    {
+      "id": "99868400-cbc9-458a-b04e-985058f1b035",
+      "Amount": -1131.59,
+      "Date": "2017-03-21T07:00:00.000Z",
+      "Description": "BMWFINANCIAL SVS BMWFS PYMT 170318 XXXXX6649 Stanley Fung4002067783\r",
+      "category": "car"
+    },
+    {
+      "id": "8b1dca56-4c4b-4059-b63b-0c6c172dff23",
+      "Amount": -44.05,
+      "Date": "2017-03-21T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 03/20 ARCO #42030 LOS ANGELES CA P00387080162603120 CARD 2778\r"
+    },
+    {
+      "id": "d90b87e4-e788-4b5f-bf78-05590cc64473",
+      "Amount": -354,
+      "Date": "2017-03-17T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 03/17 CA DMV EL MONTE FO 685 EL MONTE CA P00467076550614792 CARD 2778\r"
+    },
+    {
+      "id": "a12c102d-c52d-4003-9ce9-9f5d60e0a074",
+      "Amount": -25.11,
+      "Date": "2017-03-16T07:00:00.000Z",
+      "Description": "SO CAL GAS PAID SCGC 170315 1342674901 301601474078245253\r"
+    },
+    {
+      "id": "26b66d20-d483-467f-87d5-b209e3755056",
+      "Amount": 2976.1,
+      "Date": "2017-03-15T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 70470400005791X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "196b998e-c74d-4747-99b9-91b9ab26b0d9",
+      "Amount": -40,
+      "Date": "2017-03-06T08:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 03/04 FIRST INTERSTATE TOWER LOS ANGELES CA 0004726 ATM ID 2118Q CARD 2778\r"
+    },
+    {
+      "id": "eeccd06d-7382-4928-b5de-7a1695f1f910",
+      "Amount": -30,
+      "Date": "2017-03-03T08:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 03/02 SHIN SEN GUMI-LT LOS ANGELES CA S387061153592467 CARD 2778\r"
+    },
+    {
+      "id": "7041e306-5071-4802-80b4-3392d6a2db08",
+      "Amount": -75,
+      "Date": "2017-03-01T08:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OP037FBLYT XXXXXX7543\r"
+    },
+    {
+      "id": "c99641a8-9666-4c85-b8f4-d353cc4fc690",
+      "Amount": 2976.1,
+      "Date": "2017-02-28T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 70280200012838X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "473caa33-a216-4898-b035-d73f67b1520f",
+      "Amount": -2403.15,
+      "Date": "2017-02-24T08:00:00.000Z",
+      "Description": "\"CA087-AVA Little WEB PMTS 022417 4W8KB6 Dip"
+    },
+    {
+      "id": "04e784cc-b3db-4e63-9e7b-25126729861d",
+      "Amount": -80,
+      "Date": "2017-02-21T08:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 02/19 333 SOUTH SPRING LOS ANGELES CA 0002283 ATM ID 0908B CARD 2778\r"
+    },
+    {
+      "id": "68b696dd-7971-4c1f-a56c-2c5fa15b99c5",
+      "Amount": 2976.11,
+      "Date": "2017-02-15T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 70096900001150X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "e6bcf888-75a5-4f71-a4da-f4da29b36244",
+      "Amount": -2699.41,
+      "Date": "2017-02-14T08:00:00.000Z",
+      "Description": "CHASE EPAY 170213 2961798256 MR STANLEY FUNG\r"
+    },
+    {
+      "id": "5518dd82-e9d9-4548-bb44-44d895c5df5f",
+      "Amount": -223.49,
+      "Date": "2017-02-14T08:00:00.000Z",
+      "Description": "CHASE EPAY 170213 2961798243 MR STANLEY FUNG\r"
+    },
+    {
+      "id": "6b3fdbc7-0e37-4c2c-8e42-d228c8eaafda",
+      "Amount": -28.02,
+      "Date": "2017-02-14T08:00:00.000Z",
+      "Description": "SO CAL GAS PAID SCGC 170213 1342674901 301601474076614407\r"
+    },
+    {
+      "id": "aa73255e-848d-4fd1-ab08-87d1ad002055",
+      "Amount": -8.4,
+      "Date": "2017-02-06T08:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 02/05 BART-POWELL QPS SAN FRANCISCO CA P00000000730870684 CARD 2778\r"
+    },
+    {
+      "id": "18a5f725-731b-4a0e-b384-42e7e517bf5b",
+      "Amount": -2.5,
+      "Date": "2017-02-06T08:00:00.000Z",
+      "Description": "NON-WELLS FARGO ATM TRANSACTION FEE\r"
+    },
+    {
+      "id": "0d3b73ff-e6e2-4e59-ab49-0e008e360e6a",
+      "Amount": -103,
+      "Date": "2017-02-06T08:00:00.000Z",
+      "Description": "NON-WF ATM WITHDRAWAL AUTHORIZED ON 02/04 1000 GRANT AV SN FRNCSCO CA 00587035835938573 ATM ID 00007080 CARD 2778\r"
+    },
+    {
+      "id": "cf8774aa-b5e1-42d7-ba89-bac1cead2117",
+      "Amount": -477.09,
+      "Date": "2017-02-02T08:00:00.000Z",
+      "Description": "CHASE AUTOPAY 170201 000000000103222 FUNG STANLEY\r"
+    },
+    {
+      "id": "397ee3fd-0fbf-4916-b364-2eaf43cb7475",
+      "Amount": -75,
+      "Date": "2017-02-01T08:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OP0356F5PL XXXXXX7543\r"
+    },
+    {
+      "id": "ff0f6798-ffb0-4638-93e5-2dc70b1254a9",
+      "Amount": 2976.1,
+      "Date": "2017-01-31T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 69890000012373X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "74307f61-b9fc-4843-8a43-f9817f34ba91",
+      "Amount": -2397.82,
+      "Date": "2017-01-26T08:00:00.000Z",
+      "Description": "\"CA087-AVA Little WEB PMTS 012617 0K9446 Dip"
+    },
+    {
+      "id": "f8679ee9-99f6-446d-880a-8b557dab466d",
+      "Amount": -553.08,
+      "Date": "2017-01-24T08:00:00.000Z",
+      "Description": "BMWFINANCIAL SVS BMWFS PYMT 170122 XXXXX3368 Stanley Fung4002067783\r",
+      "category": "car"
+    },
+    {
+      "id": "68619e24-663a-4010-9aa6-6355519dddf8",
+      "Amount": -101.03,
+      "Date": "2017-01-18T08:00:00.000Z",
+      "Description": "SO CAL GAS PAID SCGC 170116 1342674901 301601474075470839\r"
+    },
+    {
+      "id": "2dfb4683-d231-4ad3-b04c-7124d56b451c",
+      "Amount": -38.03,
+      "Date": "2017-01-17T08:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 01/15 ARCO #42030 LOS ANGELES CA P00387015679885254 CARD 2778\r"
+    },
+    {
+      "id": "acbe3a64-7ff7-45da-82ef-c52c0dbdb7d0",
+      "Amount": 2976.1,
+      "Date": "2017-01-13T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 69663800017672X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "7316134b-4a05-49d3-9e93-f1f89c556c5a",
+      "Amount": -80,
+      "Date": "2017-01-09T08:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 01/07 FIRST INTERSTATE TOWER LOS ANGELES CA 0006450 ATM ID 2118Q CARD 2778\r"
+    },
+    {
+      "id": "e97a9e03-8840-473b-a116-896c42c2e63e",
+      "Amount": -2399,
+      "Date": "2017-01-04T08:00:00.000Z",
+      "Description": "\"CA087-AVA Little WEB PMTS 010417 MKDKZ5 Fung"
+    },
+    {
+      "id": "43d4604e-f6eb-4d72-b9a1-4bde74f8cef3",
+      "Amount": -1327.8,
+      "Date": "2017-01-03T08:00:00.000Z",
+      "Description": "CHASE EPAY MOBIL 170102 2907745228 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "56ae27de-17ca-4f3f-af75-1b9303775f25",
+      "Amount": -128.37,
+      "Date": "2017-01-03T08:00:00.000Z",
+      "Description": "CHASE EPAY MOBIL 170102 2907748074 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "f1d165bf-c238-4f61-a991-e8014ee43209",
+      "Amount": -75,
+      "Date": "2017-01-03T08:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OPE5TTZX77 XXXXXX7543\r"
+    },
+    {
+      "id": "a277ea38-8dcc-4bfc-b4e2-e54c5ffe8fc4",
+      "Amount": -554.35,
+      "Date": "2016-12-30T08:00:00.000Z",
+      "Description": "BMWFINANCIAL SVS BMWFS PYMT 161229 XXXXX7470 Stanley Fung4002067783\r",
+      "category": "car"
+    },
+    {
+      "id": "0d5d1c84-7783-44bc-848f-2e31a330c3a5",
+      "Amount": 2563.81,
+      "Date": "2016-12-30T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 69475300002627X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "ae165aec-8d50-4a97-88f3-e39da69544fd",
+      "Amount": -80,
+      "Date": "2016-12-28T08:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 12/28 726 E. VALLEY BLVD. ALHAMBRA CA 0005029 ATM ID 9913B CARD 2778\r"
+    },
+    {
+      "id": "a0db56b1-1a26-4457-9d90-010975f142c7",
+      "Amount": 5362.29,
+      "Date": "2016-12-21T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 69347800018639X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "2226ab70-ae19-45e5-a4db-29e323cf936f",
+      "Amount": 2605.1,
+      "Date": "2016-12-15T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 69269200026009X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "593b9b9b-0b33-493a-8588-2b525ecc7276",
+      "Amount": -3733.9,
+      "Date": "2016-12-05T08:00:00.000Z",
+      "Description": "CHASE EPAY MOBIL 161202 2870119254 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "67beb4c1-49ec-4655-b678-42e863ed54d7",
+      "Amount": -2426.97,
+      "Date": "2016-12-05T08:00:00.000Z",
+      "Description": "\"CA087-AVA Little WEB PMTS 120516 B2WNS5 Fung"
+    },
+    {
+      "id": "bbee2cfb-f28f-4349-9bec-c84d40c5048c",
+      "Amount": -128.7,
+      "Date": "2016-12-05T08:00:00.000Z",
+      "Description": "CHASE EPAY MOBIL 161202 2870118408 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "1e29f1bc-eee2-4480-82ba-84ee1c44196b",
+      "Amount": -75,
+      "Date": "2016-12-01T08:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OPE8QMQFPV XXXXXX7543\r"
+    },
+    {
+      "id": "0a94c6a6-c704-4ecf-94eb-77e479645192",
+      "Amount": 2605.1,
+      "Date": "2016-11-30T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 69034800018582X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "f6648fd1-d871-4d0d-9aca-506ec0edb455",
+      "Amount": -11.25,
+      "Date": "2016-11-28T08:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 11/25 TEN REN'S TEA TIME MONTEREY PARK CA S306331140071363 CARD 2778\r"
+    },
+    {
+      "id": "0d2ba0d5-0ed3-46e6-b577-f24056c8d710",
+      "Amount": -12.44,
+      "Date": "2016-11-28T08:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 11/25 AJI ICHIBAN MONTEREY P MONTEREY PARK CA P00306331138300231 CARD 2778\r"
+    },
+    {
+      "id": "ba114aad-b7fc-4911-ac1d-46d4173367ae",
+      "Amount": -32.2,
+      "Date": "2016-11-25T08:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 11/23 HAKATA RAMEN SHIN LOS ANGELES CA S306329144614190 CARD 2778\r"
+    },
+    {
+      "id": "e8cc2b0f-2f82-42ad-af61-d8f013143219",
+      "Amount": 2605.1,
+      "Date": "2016-11-15T08:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 68840700001772X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "cc90a408-8d34-40b0-91e7-ed33b22f9d23",
+      "Amount": -1134.13,
+      "Date": "2016-11-02T07:00:00.000Z",
+      "Description": "BMWFINANCIAL SVS BMWFS PYMT 161101 XXXXX1073 Stanley Fung4002067783\r",
+      "category": "car"
+    },
+    {
+      "id": "3acb505f-8e7f-4589-8a5d-377275381974",
+      "Amount": -2434.81,
+      "Date": "2016-11-01T07:00:00.000Z",
+      "Description": "\"CA087-AVA Little WEB PMTS 110116 TN6WK5 Dip"
+    },
+    {
+      "id": "36aa5816-ac8d-442b-aa8c-1aaabd3ce3bc",
+      "Amount": -3114.78,
+      "Date": "2016-11-01T07:00:00.000Z",
+      "Description": "CHASE EPAY 161031 2829471851 MR STANLEY FUNG\r"
+    },
+    {
+      "id": "4484b743-0e10-4d75-a99e-55468fd3f46d",
+      "Amount": -144.88,
+      "Date": "2016-11-01T07:00:00.000Z",
+      "Description": "CHASE EPAY 161031 2829472273 MR STANLEY FUNG\r"
+    },
+    {
+      "id": "bfee6e2a-dff8-4135-bf02-dd69bdc55e88",
+      "Amount": -75,
+      "Date": "2016-11-01T07:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OPE2X8H49W XXXXXX7543\r"
+    },
+    {
+      "id": "613f30b8-46ac-4888-9b35-1654a0a4d15b",
+      "Amount": 2605.09,
+      "Date": "2016-10-31T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 68616700001389X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "bc1acf8f-f349-4fdc-85e6-3e9ba617f6f4",
+      "Amount": 2605.1,
+      "Date": "2016-10-14T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 68385600001451X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "18f61de6-8340-4ea8-92ef-d7f8256bcda9",
+      "Amount": -75,
+      "Date": "2016-10-03T07:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OPE5SYY35G XXXXXX7543\r"
+    },
+    {
+      "id": "a9e98812-0519-4aa0-a2be-bdba689acbda",
+      "Amount": 2605.13,
+      "Date": "2016-09-30T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 68176400011285X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "307ac96a-ae67-442f-82de-38e1b82763ec",
+      "Amount": -2386.48,
+      "Date": "2016-09-27T07:00:00.000Z",
+      "Description": "\"CA087-AVA Little WEB PMTS 092716 1D4XB5 Fung"
+    },
+    {
+      "id": "397fa74a-54f6-4422-a771-cadb5cf8f21f",
+      "Amount": -2066.69,
+      "Date": "2016-09-26T07:00:00.000Z",
+      "Description": "CHASE EPAY 160924 2786250174 MR STANLEY FUNG\r"
+    },
+    {
+      "id": "80289ac0-cfb8-487e-92fb-fcd747b3f18e",
+      "Amount": -112.92,
+      "Date": "2016-09-26T07:00:00.000Z",
+      "Description": "CHASE EPAY 160924 2786251354 MR STANLEY FUNG\r"
+    },
+    {
+      "id": "a90aeb15-ece2-4c3a-a64c-4b8ee756e172",
+      "Amount": 2605.09,
+      "Date": "2016-09-15T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 67954000030807X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "e817d89b-73d1-4f4c-9f22-a6d4c44f89ea",
+      "Amount": -100,
+      "Date": "2016-09-06T07:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 09/04 726 E. VALLEY BLVD. ALHAMBRA CA 0006788 ATM ID 9913B CARD 6698\r"
+    },
+    {
+      "id": "d2a844f6-59bb-40fa-b1bb-cea88a04f945",
+      "Amount": -1776.46,
+      "Date": "2016-09-01T07:00:00.000Z",
+      "Description": "CHASE EPAY 160831 2756271973 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "78b3b05d-5c4d-4df2-b467-db0a607a5b8d",
+      "Amount": -136.97,
+      "Date": "2016-09-01T07:00:00.000Z",
+      "Description": "CHASE EPAY 160831 2756272371 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "ee56f67f-8b6e-4d82-9d17-41dcf68a1918",
+      "Amount": -75,
+      "Date": "2016-09-01T07:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OPEKDVRC9C XXXXXX7543\r"
+    },
+    {
+      "id": "81fbf177-60dc-47b8-82a7-a6da4e07b163",
+      "Amount": -2367,
+      "Date": "2016-08-31T07:00:00.000Z",
+      "Description": "\"CA087-AVA Little WEB PMTS 083116 Y3RM55 Fung"
+    },
+    {
+      "id": "f8a8e502-f7cd-44b6-ae86-d2fcbe88d5a9",
+      "Amount": 2605.09,
+      "Date": "2016-08-31T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 67725400008238X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "aec4915e-e98f-4d4d-87be-462a0713d4bb",
+      "Amount": -554.35,
+      "Date": "2016-08-30T07:00:00.000Z",
+      "Description": "BMWFINANCIAL SVS BMWFS PYMT 160828 XXXXX9513 Stanley Fung4002067783\r",
+      "category": "car"
+    },
+    {
+      "id": "a5477127-5a43-4b43-981d-da62358ead55",
+      "Amount": 74.87,
+      "Date": "2016-08-19T07:00:00.000Z",
+      "Description": "MOBILE DEPOSIT : REF NUMBER :118190846630\r"
+    },
+    {
+      "id": "624d7e58-0b48-431b-812a-ac0575f0d98d",
+      "Amount": -554.35,
+      "Date": "2016-08-16T07:00:00.000Z",
+      "Description": "BMWFINANCIAL SVS BMWFS PYMT 160813 XXXXX2845 Stanley Fung4002067783\r",
+      "category": "car"
+    },
+    {
+      "id": "f1318076-99cb-4b43-9ea9-339bb6a9c680",
+      "Amount": -80,
+      "Date": "2016-08-15T07:00:00.000Z",
+      "Description": "ATM WITHDRAWAL AUTHORIZED ON 08/14 400 S BALDWIN AVENUE SANTA ANITA CA 0004543 ATM ID 9949W CARD 6698\r"
+    },
+    {
+      "id": "0424f597-679f-455e-9da1-a30034c39465",
+      "Amount": 2605.09,
+      "Date": "2016-08-15T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 67480400001006X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "a017d075-6138-4d62-9648-49781f8fa076",
+      "Amount": -33,
+      "Date": "2016-08-11T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 08/11 CA DMV HOLLYWOOD COLE HOLLYWOOD CA P00386224797394110 CARD 6698\r"
+    },
+    {
+      "id": "2f88b348-fbc3-4f8b-a3c2-4756ff9005ea",
+      "Amount": -2938.13,
+      "Date": "2016-08-04T07:00:00.000Z",
+      "Description": "CHASE EPAY 160803 2723003484 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "361398cb-a1aa-4c23-85eb-9ceb1ec2e897",
+      "Amount": -296.93,
+      "Date": "2016-08-04T07:00:00.000Z",
+      "Description": "CHASE EPAY 160803 2723003833 MR STANLEY FUNG\r",
+      "category": "ccpayment"
+    },
+    {
+      "id": "52613b9c-c180-4511-a2d7-ec77708da361",
+      "Amount": -75,
+      "Date": "2016-08-01T07:00:00.000Z",
+      "Description": "RECURRING TRANSFER TO FUNG S SAVINGS REF #OPE8PDQNSH XXXXXX7543\r"
+    },
+    {
+      "id": "18e0e767-9df8-4039-b254-5e577d6b4e02",
+      "Amount": 2605.09,
+      "Date": "2016-07-29T07:00:00.000Z",
+      "Description": "\"PROSEARCH STRATE PAYROLL 67264300005118X FUNG",
+      "category": "directdeposit"
+    },
+    {
+      "id": "2972014e-f506-4fde-a789-4774599ebd5a",
+      "Amount": -69.24,
+      "Date": "2016-07-26T07:00:00.000Z",
+      "Description": "PURCHASE AUTHORIZED ON 07/25 COSTCO WHSE #0428 ALHAMBRA CA P00386208120299033 CARD 6698\r"
+    }
+  ]
 }

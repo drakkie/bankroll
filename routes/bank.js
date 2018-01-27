@@ -13,17 +13,17 @@ module.exports = (() => {
         bank_db.defaults({ bank: [] }).write();
         
         
-        router.get('/bank', (req, res) => {
+        router.get('/api/api/bank', (req, res) => {
             res.set('Content-Type', 'application/json');
             res.send(bank_db.get('bank').value());
         });
         
-        router.get('/bank/:id', (req, res) => {
+        router.get('/api/bank/:id', (req, res) => {
             let bank_id = req.params.id;
             res.json(bank_db.get('bank').find({ id: cc_id }));
         });
         
-        router.post('/bank', (req, res) => {
+        router.post('/api/bank', (req, res) => {
             let banks = req.body;
             for (let bank of banks) {
                 bank_db.get('bank')
@@ -38,14 +38,14 @@ module.exports = (() => {
             }
         });
         
-        router.delete('/bank/:id', (req, res) => {
+        router.delete('/api/bank/:id', (req, res) => {
             let bank_id = req.params.id;
         
             bank_db('bank').remove({ id: cc_id });
             bank_db.save();
         });
 
-        router.put('/bank/UpdateByDescription', (req, res) => {
+        router.put('/api/bank/UpdateByDescription', (req, res) => {
             let field_to_update = req.body.field_to_update;
             let value = req.body.value;
             let description = req.body.description.substring(0,15);

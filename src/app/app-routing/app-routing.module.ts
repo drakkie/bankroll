@@ -14,7 +14,8 @@ const routes: Routes = [
   {
     path: '',
     component: TransactionsComponent,
-    data: {transactionType: 'cc'}
+    data: {transactionType: 'cc'},
+    pathMatch: 'full'
   },
   {
     path: 'cc',

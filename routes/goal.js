@@ -13,17 +13,17 @@ module.exports = (() => {
         goal_db.defaults({ goal: [] }).write();
         
         
-        router.get('/goal', (req, res) => {
+        router.get('/api/goal', (req, res) => {
             res.set('Content-Type', 'application/json');
             res.send(goal_db.get('goal').value());
         });
         
-        router.get('/goal/:id', (req, res) => {
+        router.get('/api/goal/:id', (req, res) => {
             let goal_id = req.params.id;
             res.json(goal_db.get('goal').find({ id: goal_id }));
         });
         
-        router.post('/goal', (req, res) => {
+        router.post('/api/goal', (req, res) => {
             let goals = req.body;
 
             for (let goal of goals) {
@@ -38,7 +38,7 @@ module.exports = (() => {
             }
         });
         
-        router.delete('/goal/', (req, res) => {
+        router.delete('/api/goal/', (req, res) => {
             let goal_id = req.params.id;
             let goals = req.body;
         
@@ -52,7 +52,7 @@ module.exports = (() => {
             res.send([]);
         });
         
-        router.put('/goal/:id', (req, res) => {
+        router.put('/api/goal/:id', (req, res) => {
             let goal_id = req.params.id;
         
             goal_db('goal')

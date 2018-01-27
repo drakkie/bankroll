@@ -13,12 +13,12 @@ module.exports = (() => {
         cc_db.defaults({ cc: [] }).write();
         
         
-        router.get('/cc', (req, res) => {
+        router.get('/api/cc', (req, res) => {
             res.set('Content-Type', 'application/json');
             res.send(cc_db.get('cc').value());
         });
         
-        router.post('/cc', (req, res) => {
+        router.post('/api/cc', (req, res) => {
             let ccs = req.body;
             for (let cc of ccs) {
                 cc_db.get('cc')
@@ -35,7 +35,7 @@ module.exports = (() => {
         
         });
         
-        router.delete('/cc/:id', (req, res) => {
+        router.delete('/api/cc/:id', (req, res) => {
             let cc_id = req.params.id;
         
             cc_db('cc').remove({ id: cc_id });
@@ -59,7 +59,7 @@ module.exports = (() => {
         // });
 
         // RPC! auto propagate values to same descriptions
-        router.put('/cc/UpdateByDescription', (req, res) => {
+        router.put('/api/cc/UpdateByDescription', (req, res) => {
             let field_to_update = req.body.field_to_update;
             let value = req.body.value;
             let description = req.body.description.substring(0,15);
