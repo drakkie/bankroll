@@ -13,7 +13,7 @@ module.exports = (() => {
         bank_db.defaults({ bank: [] }).write();
         
         
-        router.get('/api/api/bank', (req, res) => {
+        router.get('/api/bank', (req, res) => {
             res.set('Content-Type', 'application/json');
             res.send(bank_db.get('bank').value());
         });

@@ -7,8 +7,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { environment } from '../environments/environment';
-import { AngularFireModule } from 'angularfire2';
-import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { HttpClientModule } from '@angular/common/http';
 
 //custom 
@@ -36,8 +34,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     FormsModule,
     BrowserAnimationsModule,
     TransactionsModule,
-    //  AngularFireModule.initializeApp(environment.firebase, 'bankrolldb'),
-    //  AngularFirestoreModule,
     MatTabsModule,
     HttpClientModule,
     OverviewModule,
