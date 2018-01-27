@@ -25,7 +25,6 @@ export class TransactionsComponent implements OnInit {
   existing_cc_transactions$: Observable<Transaction[]>;
   existing_bank_transactions$: Observable<Transaction[]>;
 
-  @ViewChild(MatPaginator) paginator: MatPaginator;
   ngOnInit() {
     this.route.data.subscribe(data => { this.transactionType$.next(data.transactionType); console.log(data)});
   }
