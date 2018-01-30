@@ -47,3 +47,4 @@ database/bank.json
 database/cc.json
 database/expense.json
 database/goal.json
+*.json
