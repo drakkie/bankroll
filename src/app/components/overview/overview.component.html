@@ -5,7 +5,7 @@
     </mat-toolbar>
     <mat-card>
       <mat-card-content>
-        $2000
+        ${{calculator_service.remaining_money$ | async}}
       </mat-card-content>
     </mat-card>
   </div>
@@ -42,7 +42,7 @@
     </mat-card>
   </div>
 </div>
-<div fxLayout="row" fxLayoutGap="10px">
+<!-- <div fxLayout="row" fxLayoutGap="10px">
   <div fxFlex="50">
     <mat-toolbar>
       <mat-icon>credit_card</mat-icon>Expenses</mat-toolbar>
@@ -66,4 +66,4 @@
       </mat-card-content>
     </mat-card>
   </div>
-</div>
+</div> -->

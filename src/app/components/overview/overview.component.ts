@@ -5,8 +5,11 @@ import { Component, OnInit } from '@angular/core';
 import { TransactionBankService } from '../../services/transaction-bank.service';
 import 'rxjs/add/observable/zip';
 import 'rxjs/add/observable/forkJoin';
+import 'rxjs/add/observable/combineLatest';
 import { ExpenseService } from '../../services/expense.service';
 import { GoalService } from '../../services/goal.service';
+import { forkJoin } from 'rxjs/observable/forkJoin';
+import { CalculatorService } from '../../services/calculator.service';
 
 @Component({
   selector: 'app-overview',
@@ -23,29 +26,12 @@ export class OverviewComponent implements OnInit {
   constructor(
     private transaction_cc_service: TransactionCcService,
     private transaction_bank_service: TransactionBankService,
-    private expense_service: ExpenseService,
-    private goal_service: GoalService
+    private calculator_service: CalculatorService
   ) { }
 
   ngOnInit() {
-    //todo: run both @ same time, then calculate goals + expenses + spending - income = extra spending money
-    this.expense_service.transactions$.subscribe((expenses) => this.expenses = expenses);
-    this.goal_service.transactions$.subscribe((goals) => this.goals = goals);
-
-    this.combineExpenses();
+    this.calculator_service.calculateRemainingMoney();
   }
-
-  combineExpenses() {
-    let bank = this.transaction_bank_service.expenses$.getValue();
-    let cc = this.transaction_cc_service.expenses$.getValue();
-
-    this.expense_spending = bank.concat(cc);
-
-
-  }
-
-
-
 
 }
 

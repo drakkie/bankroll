@@ -1,4 +1,5 @@
 import { GoalService } from './services/goal.service';
+import { CalculatorService } from './services/calculator.service';
 import { ExpenseService } from './services/expense.service';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 //angular
@@ -48,7 +49,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     TransactionCcService,
     TransactionBankService,
     ExpenseService,
-    GoalService
+    GoalService,
+    CalculatorService
   ],
   bootstrap: [AppComponent]
 })

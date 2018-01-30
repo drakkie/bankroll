@@ -8,7 +8,7 @@ export abstract class CrudServiceBase implements ICrud {
   abstract http: HttpClient;
 
   abstract transaction_type: any;
-  transactions$: BehaviorSubject<Transaction[]> = new BehaviorSubject<Transaction[]>([]);
+  transactions$: BehaviorSubject<any[]> = new BehaviorSubject<any[]>([]);
 
   add(items: any[]) {
     this.http.post(`/api/${this.transaction_type}`, items).subscribe();
@@ -51,7 +51,8 @@ export abstract class TransactionService extends CrudServiceBase implements ICru
     });
   }
 
-
+//TODO: Move all this stuff to the calculator service - no longer need transction service..  just use CrudService
+//let the calculator handle all this
   calculate_year_month_totals() {
     this.transactions$
       .subscribe((result: Transaction[]) => {
