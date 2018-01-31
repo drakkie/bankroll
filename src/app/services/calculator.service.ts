@@ -36,12 +36,15 @@ export class CalculatorService {
         let cc: YearMonthTotals[];
         let expense: number;
         let goal: number;
+        let income: number;
 
         //loop through results
         for (let index in results) {
           switch (+index) {
             case 0:
               bank = this.calculateYearMonthTotals(results[index]);
+              income = this.calculateAverageIncome(results[index]);
+              console.log(income);
               break;
             case 1:
               cc = this.calculateYearMonthTotals(results[index]);
@@ -77,7 +80,7 @@ export class CalculatorService {
 
         //get income and put it in!
         this.remaining_money$.next(
-          (current_bank + current_cc) + (expense + goal));
+          income - (current_bank + current_cc + expense + goal));
       });
   }
 
@@ -127,5 +130,23 @@ export class CalculatorService {
     }
 
     return amount_per_month;
+  }
+
+  private calculateAverageIncome(records: Transaction[]) {
+    let income = 0;
+    //remove current month
+    let date = new Date();
+    date.setMonth(date.getMonth() - 3);
+    //calculate only past 3 months
+    
+
+    for (let record of records) {
+      if (record.category == "directdeposit"){
+        if (new Date(record.Date) > date)
+        income += record.Amount
+      } 
+    }
+
+    return income / 3;
   }
 }
